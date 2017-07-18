@@ -1,0 +1,93 @@
+.pay{
+	text-align: center;
+	border: 1px solid #cccccc;
+	margin:84px auto 42px; 
+	overflow: hidden;
+}
+.pay .left{
+	float: left;
+	margin:  20px 0 36px;
+	width: 724px;
+	height: 217px;
+	border-right: 1px solid #dddddd;
+}
+.pay .left h3{
+	color: #333;
+	text-align: center;
+	font-size: 30px;
+	height: 48px;
+	line-height: 48px;
+	margin-top: 40px;
+}
+.pay .left h3 img{
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 10px;
+}
+.pay .left span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #999999;
+	margin: 15px 0 30px;
+}
+.pay .left p {
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.pay .left p a{
+	float: left;
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #e5e5e5;
+	font-size: 14px;
+	color: #999;
+	margin-right: 10px;
+}
+.pay .left p .red{
+	color: #ff0000;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+}
+.pay .right{
+	float: right;
+	width: 470px;
+	text-align: center;
+	height: 217px;
+}
+.pay .right img{
+	margin-top: 45px;
+	display: inline-block;
+}
+.pay .right p{
+	margin-top: 15px;
+	font-size: 18px;
+	color: #666;
+	padding-left: 110px;
+	text-align: left;
+}
+.pay .right span{
+	padding-left: 110px;
+	text-align: left;
+	display: block;
+	font-size: 14px;
+	color: #666;
+}
+.home{
+	display: block;
+	width: 176px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	margin:  0 auto;
+	background: #f1f1f1;
+	border: 1px solid #cccccc;
+}

@@ -1,0 +1,215 @@
+.userbox{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 48px;
+}
+.userbox .usernav{
+	float: left;
+	width: 200px;
+	border: 1px solid #e5e5e5;
+}
+.userbox .usernav ul{
+	margin: 15px 20px 40px 10px;
+}
+.userbox .usernav ul li p{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 6px;
+}
+.userbox .usernav ul li ol li a{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 3px;
+	font-size: 12px;
+	font-family:'宋体';
+	color: #666666;
+}
+.userbox .userright{
+	float: right;
+	width: 980px;
+}
+.userbox .user{
+
+}
+.userhead {
+	border: 1px solid #e5e5e5;
+	padding: 9px 13px;
+	overflow: hidden;
+}
+.userhead>a{
+	float: left;
+	display: block;
+	margin-right: 11px;
+}
+.userhead p{
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 10px;
+}
+.userhead ul{
+	width: 450px;
+	overflow: hidden;
+}
+.userhead ul li{
+	float: left;
+	margin-right: 30px;
+	line-height: 36px;
+}
+.userhead ul li a{
+	display: inline-block;
+	height: 36px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 36px;
+}
+.userhead ul li a b{
+	font-size: 14px;
+	color: #ff0000;
+	font-family: 'Arial';
+}
+.userfoot {
+	margin-top: 18px;
+	border: 1px solid #dfdfdf;
+}
+.userfoot .thead{
+	padding: 0 36px;
+	background: #fafafa;
+	border-bottom: 1px solid #dfdfdf;
+}
+.userfoot .thead ul li{
+	float: left;
+	font-family: '宋体';
+	width: 35%;
+	font-size: 14px;
+	color: #666666;
+	line-height: 44px;
+	height: 44px;
+}
+.userfoot .thead ul li+li{
+	width: 30%;
+	text-align: center;
+}
+.userfoot .thead ul li+li+li{
+	width: 35%;
+	text-align: right;
+}
+.userfoot .tbody{
+}
+.userfoot .tbody  li{
+	overflow: hidden;
+	padding: 12px 36px ;
+	border-bottom: 1px solid #dfdfdf;
+}
+.userfoot .tbody .left{
+	width: 35%;
+	float: left;
+}
+.userfoot .tbody .left>a{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.userfoot .tbody .left a img{
+	display: block;
+}
+.userfoot .tbody .left p a{
+	font-size: 12px;
+	color: #333;
+	line-height: 14px;
+	display: block;
+	font-family: '宋体';
+}
+.userfoot .tbody .left p{
+	margin-top: 15px;
+}
+.userfoot .tbody .left span{
+	display: block;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #666;
+}
+.userfoot .tbody .left span b{
+	float: right;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #666;
+}
+.userfoot .tbody .left span b i{
+	color: #333;
+	font-weight: bold;
+}
+
+.userfoot .tbody .middle{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.userfoot .tbody .middle p{
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: '宋体';
+	font-weight: bold;
+	color: #333333;
+}
+.userfoot .tbody .middle span{
+	display:block;
+	font-family: '宋体';
+	color: #666;
+	margin-top: 5px;
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.userfoot .tbody .right{
+	float: left;
+	overflow: hidden;
+	width: 35%;
+}
+.userfoot .tbody .right .fl{
+	margin-top: 11px;
+	width: 76px;
+}
+.userfoot .tbody .right .fl a{
+	font-size: 12px;	
+	font-family: '宋体';
+	display: block;
+	text-align: center;
+	height: 23px;
+	line-height: 23px;
+	background: #000;
+	color: #fff;
+}
+.userfoot .tbody .right .fl a+a{
+	background: #fff;
+	margin-top: 8px;
+	color: #000;
+}
+.userfoot .tbody .right .fr{
+	margin-top:27px;
+}
+.userfoot .tbody .right .fr a{
+	font-size: 12px;
+	font-family: '宋体';
+	color: #848484;
+}
+.more{
+	margin-top: 20px;
+	text-align: right;
+	overflow: hidden;
+}
+.more a{
+	font-size: 12px;
+	font-family: '宋体';
+	color: #fff;
+	display: block;
+	float: right;
+	width: 84px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	background: #ff0000;
+}

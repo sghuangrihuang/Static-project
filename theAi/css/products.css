@@ -1,0 +1,431 @@
+.postion{
+	margin-top: 20px;
+}
+.postion p{
+	line-height: 40px;
+	height: 40px;
+	color: #000;
+	font-size: 12px;
+	font-family: '宋体';
+}
+.postion p a{
+	font-size: 12px;
+	color: #000;
+	font-family: '宋体';
+}
+.chose{
+	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;	
+}
+.chose .thead p{
+	padding-left: 20px;
+	line-height: 42px;
+	height: 42px;
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+}
+.chose .thead p img{
+	display: inline-block;
+	position:absolute;
+	cursor: pointer;
+	z-index: 10;
+	right: 0;
+	top: 0;
+}
+.chose .thead p span{
+	display: inline-block;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #000;
+}
+.chose .thead p a{
+	display: inline-block;
+	padding:  0 10px;
+	display: inline-block;
+	height: 22px;
+	margin-right: 15px;
+	cursor: pointer;
+	line-height: 22px;
+	border: 1px solid #d2d2d2;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #000;
+}
+.chose .tbody ul li{
+	line-height: 48px;
+	padding-left: 60px;
+	border:1px solid #e5e5e5;
+}
+.chose .tbody ul li dt{
+	font-size: 12px;
+	float: left;
+	font-family: '宋体';
+	color: #000;
+}
+.chose .tbody ul li dd{
+	float: left;
+}
+.chose .tbody ul li dd.on a{
+	color: #ff0000;
+}
+.chose .tbody ul li dd a{
+	font-size: 12px;
+	font-family: '宋体';
+	color: #000;
+	margin: 0 5px;
+}
+.filter{
+	overflow: hidden;
+	position:relative;
+	line-height: 40px;
+	border: 1px solid #e5e5e5;
+}
+.filter span{
+	float: left;
+	display: inline-block;
+	font-size: 12px;
+	font-family: '宋体';
+	padding: 0 3px;
+	cursor: pointer;
+	border-right: 1px solid #e5e5e5;
+}
+.filter .san{
+	padding: 0 15px 0 8px;
+	background: url(../images/icon17.png) no-repeat 35px center;
+}
+.filter .on{
+	color: #ff0000;
+	background: url(../images/icon16.png) no-repeat 35px center;
+}
+.filter .rect{
+	padding: 0 5px 0 18px;
+	background: url(../images/icon19.png) no-repeat 6px center;
+}
+.filter .recton{
+	background: url(../images/icon20.png) no-repeat 6px center;
+}
+.filter{
+	margin-bottom: 40px;
+}
+.filter  form{
+	margin-left: 7px;
+	float: left;
+	width: 895px;
+	height: 40px;
+	border-right: 1px solid #e5e5e5;
+	overflow: hidden;
+}
+.filter .price{
+	height: 22px;
+	line-height: 22px;
+	padding-left: 12px;
+	font-size: 12px;
+	float: left;
+	color: #000;
+	margin-top: 7px;
+	width: 68px;
+	border: 1px solid #e5e5e5;
+	background: url(../images/icon18.png) no-repeat 1px center;
+}
+.filter  .reduce{
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 7px;
+	text-align: center;
+	font-family:'宋体';
+	float: left;
+	color: #000;
+	font-size: 12px;
+	border: 1px solid #e5e5e5;
+	border-left:0;
+	width: 8px; 
+	border-right:0; 
+}
+.filter  .search{
+	height: 22px;
+	line-height: 22px;
+	margin-top: 7px;
+	margin-left: 17px;
+	border: 1px solid #e5e5e5;
+	float: left;
+	color: #000;
+	width: 120px;
+	font-size: 12px;
+	padding: 0 5px;
+}
+.filter  .submit{
+	float: left;
+	height: 24px;
+	cursor: pointer;
+	line-height: 24px;
+	font-size: 12px;
+	font-family:'宋体';
+	margin-top: 7px;
+	width: 40px;
+	text-align: center;
+	border: 1px solid #e5e5e5;
+}
+.productlist ul {
+	margin-right: -21px;
+	overflow: hidden;
+}
+.productlist ul li{
+	float: left;
+	width: 282px;
+	margin-right: 21px;
+	margin-bottom: 30px;
+	border: 1px solid #e5e5e5;
+}
+.productlist ul li:hover{
+	border: 1px solid #ff5400;
+}
+.productlist ul li .pic{
+	position: relative;
+}
+.productlist ul li .pic a,.productlist ul li .pic a  img{
+	display: block;
+}
+.productlist ul li .pic .bage{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 10;
+}
+.productlist ul li .text p{
+	padding: 0 12px;
+	overflow: hidden;
+	margin-top: 18px;
+	line-height: 22px;
+}
+.productlist ul li .text p b{
+	font-size: 16px;
+	font-family: 'Arial';
+	color: #ff0000;
+}
+.productlist ul li .text p i{
+	display: inline-block;
+	margin-left: 5px;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #747474;
+	text-decoration: line-through;
+}
+.productlist ul li .text p  span{
+	float: right;
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+	color: #0080ff;
+	font-size: 12px;
+}
+.productlist ul li .text a{
+	display:block;
+	padding:  0 12px;
+	font-family: '宋体';
+	color: #333333;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-bottom: 30px;
+}
+.paging{
+	display: block;
+	text-align: right;
+}
+.paging div{
+	display: inline-block;
+	overflow: hidden;
+}
+.paging div ul{
+	float: left;
+	display: inline-block;
+}
+.paging div ul li{
+	float: left;
+	margin:  0 2.5px;
+}
+.paging div ul li a{
+	padding:  0 5px;
+	text-align: center;
+	font-size: 14px;
+	color: #464444;
+	display: block;
+	background: #fff;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #e5e5e5;
+}
+.paging div ul li.on,.paging div ul li:hover{
+	background: #000;
+}
+.paging div ul li.on a,.paging div ul li:hover a{
+	background: #000;
+	color: #fff;
+}
+.paging div span{
+	display: inline-block;
+	height: 27px;
+	margin:  0 5px;
+	line-height: 27px;
+	font-size: 12px;
+	color: #464444;
+}
+.paging div input{
+	display: inline-block;
+	width: 40px;
+	border: 1px solid #e5e5e5;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Arial';
+}
+.paging div button{
+	display: inline-block;
+	width: 42px;
+	cursor: pointer;
+	border: 1px solid #e5e5e5;
+	height: 27px;
+	background: #fff;
+	line-height: 27px;
+	text-align: center;
+	font-size: 14px;
+	font-family: '宋体';
+}
+.tablist {
+	margin-top: 37px;
+	overflow: hidden;
+}
+.tablist  .left{
+	float: left;
+	width: 976px;
+}
+.tablist  .left .tabs{
+	margin-bottom: 13px;
+}
+.tablist  .left .tabs ul li{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	line-height: 43px;
+	height: 43px;
+	cursor:pointer;
+	border-bottom: 4px solid #000;
+}
+.tablist  .left .tabs ul li.on{
+	color: #ff0000;
+	border-bottom: none;
+	padding-bottom: 4px;
+	background: url(../images/line2.png) repeat-x bottom center;
+}
+.tablist .tab ul{
+	margin-right: -12px;
+	overflow: hidden;
+}
+.tablist .tab ul li{
+	float: left;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	width: 235px;
+	margin-right: 9px;
+}
+.tablist .tab ul li:hover{
+	border: 1px solid #3eca07;
+}
+.tablist .tab ul li img{
+	display: block;
+}
+.tablist .tab ul li a,.tablist .tab ul li a img{
+	display: block;
+}
+.tablist .tab ul li b{
+	display:inline-block;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	z-index: 10;
+}
+.tablist .tab ul li .text{
+	position: absolute;
+	bottom: 10px;
+	left: 8px;
+}
+.tablist .tab ul li .text p{
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 5px;
+}
+.tablist .tab ul li .text span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.tablist .tab ul li .text i{
+	display: inline-block;
+	color: #ff0000;
+	font-size: 12px;
+	padding: 2px;
+	border: 1px solid #ff0000;
+}
+.tablist  .right{
+	width: 210px;
+	float: right;
+	border: 1px solid #d2d2d2;
+}
+.tablist  .right .box{
+	padding: 17px 17px 7px;
+}
+.tablist  .right .box h2{
+	line-height: 48px;
+	height: 48px;
+	font-size: 18px;
+	background: url(../images/icon5.png) no-repeat left center; 
+	color: #ff0000;
+	padding-left: 25px;
+	border-bottom: 1px dotted #666;
+}
+.tablist  .right .box h2 a{
+	float: right;
+	font-size: 12px;
+	color: #ff0000;
+	font-family: "宋体";
+}
+.tablist  .right .box p{
+	font-size: 14px;
+	color: #282828;
+	line-height: 30px; 
+}
+.tablist  .right .box .text{
+	overflow: hidden;
+	border-top: 1px dotted #666;
+}
+.tablist  .right .box .text a{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	-webkit-transition:All 0.4s ease-in-out;    
+	-moz-transition:All 0.4s ease-in-out;    
+	-o-transition:All 0.4s ease-in-out;
+	transition:All 0.4s ease-in-out;  
+}
+.tablist  .right .box .text:hover a{
+	-webkit-transform:translate(0,-10px);    
+	-moz-transform:translate(0,-10px);    
+	-o-transform:translate(0,-10px);    
+	-ms-transform:translate(0,-10px);
+	transform:translate(0,-10px);    
+}
+.tablist  .right .box .text b{
+	font-size: 14px;
+	display: block;
+	margin-top: 75px;
+	color: #333333;
+}
+.tablist  .right .box .text span{
+	font-size: 14px;
+	color: #ff0000;
+}

@@ -1,0 +1,94 @@
+.form{
+	width: 675px;
+	border: 1px solid #d6d6d6;
+	margin: 135px  auto 120px;
+}
+.form h2{
+	font-size: 16px;
+	color: #000;
+	background: #ededed;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 40px;
+	margin-bottom: 28px;
+}
+.form  form p{
+	line-height: 30px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.form  form p label{
+	width: 110px;
+	font-size: 14px;
+	text-align: right;
+	height: 30px;
+	line-height: 30px;
+	color: #7f7f7f;
+	display: inline-block;
+	float: left;
+}
+.form  form p input{
+	float: left;
+	width: 250px;
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #cecece;
+	padding:  0 5px;
+}
+.form  form p span{
+	display: inline-block;
+	margin-left: 28px;
+	font-size: 12px;
+	color: #999999;
+	line-height: 30px;
+}
+.form  form .yzm input{
+	width: 160px;
+}
+.form  form .yzm i{
+	float: left;
+	margin-left: 16px;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+	font-family:'宋体';
+	background: #000;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	width: 73px;
+	margin-top: 5px;
+	color: #fff;
+}
+.form  form p input[type='checkbox']{
+	float: left;
+	width: 15px;
+	height: 15px;
+}
+.form  form p a{
+	float: left;
+	margin-left: 15px;
+	display: block;
+	height: 17px;
+	line-height: 17px;
+	color: #7f7f7f;
+	font-size: 14px;
+}
+.form  form p a b{
+	margin-left: 5px;
+	cursor: pointer;
+	color: #ff0000;
+}
+.form  form button{
+	width: 190px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: #000;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

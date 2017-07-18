@@ -1,0 +1,142 @@
+.userbox{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 48px;
+}
+.userbox .usernav{
+	float: left;
+	width: 200px;
+	border: 1px solid #e5e5e5;
+}
+.userbox .usernav ul{
+	margin: 15px 20px 40px 10px;
+}
+.userbox .usernav ul li p{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 6px;
+}
+.userbox .usernav ul li ol li a{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 3px;
+	font-size: 12px;
+	font-family:'宋体';
+	color: #666666;
+}
+.userbox .userright{
+	float: right;
+	width: 980px;
+}
+.userbox .address h2{
+	margin-top: 15px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 16px;
+	color: #2b2b2b;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.userbox .address p{
+	text-align: right;
+	margin-top: 6px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.userbox .address p a{
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	width: 90px;
+	height: 32px;
+	line-height: 32px;
+}
+.tlist {
+	border: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+.tlist .thead{
+	line-height: 32px;
+	height: 32px;
+	background: #f6f6f6;
+}
+.tlist .thead span{
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	line-height: 32px;
+	text-align: center;
+	width: 17.5%;
+}
+.tlist .thead span+span{
+	width: 16%;
+}
+.tlist .tbody ul li{
+	border: 1px solid #e5e5e5;
+	border-left: none;
+	border-right: none;
+	line-height: 88px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.tlist .tbody ul li span{
+	display: inline-block;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	width: 17.5%;
+}
+.tlist .tbody ul li span+span{
+	width: 16%;
+}
+.tlist .tbody ul li .ress{
+	line-height: 20px;
+	text-align: left;
+	vertical-align: middle;
+}
+.tlist .tbody ul li text{
+	line-height: 35px;
+	min-height: 35px;
+	display: inline-block;
+}
+.tlist .tbody ul li span a{
+	display: inline-block;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #000;
+	cursor: pointer;
+	margin: 0 5px;
+}
+.tlist .tbody ul li span a+a{
+	color: #ff0000;
+}
+.paging {
+	text-align: right;
+}
+.paging  ul{
+	display: inline-block;
+	overflow: hidden;
+}
+.paging  ul li{
+	float: left;
+	margin-left:12px;
+}
+.paging  ul li.on a{
+	background: #000;
+	color: #fff;
+}
+.paging  ul li a{
+	display: inline-block;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #4c4c4c;
+	border: 1px solid #dfdfdf;
+	padding:6px;
+}

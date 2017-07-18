@@ -1,0 +1,246 @@
+.content{
+	background: #f5f5f5;
+}
+.title{
+	padding-top: 47px;
+}
+.title h2{
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.title p {
+	text-align: center;
+}
+.title p a{
+	font-size: 12px;
+	color: #333333;
+	font-family: '宋体';
+}
+.title p a+a{
+	margin-left: 35px;
+}
+.comment{
+	margin-top: 20px;
+	overflow: hidden;
+	background: #fff;
+}
+.comment .left{
+	float: left;
+	width: 318px;
+}
+.comment .left img{
+	display: block;
+	margin-bottom: 30px;
+}
+.comment .left p{
+	padding:  0 50px;
+	overflow: hidden;
+}
+.comment .left p a{
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+	display: block;
+	text-indent: 6em;
+	font-family: '宋体';
+	line-height: 16px;
+}
+.comment .left p  span{
+	float: right;
+	display: block;
+	color: #ff0000;
+	line-height: 16px;
+	font-size: 14px;
+	margin-bottom: 60px;
+	font-weight: bold;
+}
+.comment .right{
+	float: right;
+	width: 880px;
+}
+.comment .right .box{
+	padding: 45px;
+}
+.comment .right .box h3{
+	line-height: 22px;
+	margin-bottom: 20px;
+	height: 22px;
+	overflow: hidden;
+	font-size: 12px;
+	clear: both;
+	color: #fc982c;
+	font-family: '宋体';
+}
+.comment .right .box h3 img{
+	vertical-align: middle;
+	display: inline-block;
+	float: left;
+}
+.comment .right .box p,.comment .right .box>div{
+	overflow: hidden;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+.comment .right .box p label,.comment .right .box div label{
+	display: inline-block;
+	line-height: 16px;
+	font-size: 12px;
+	width: 100px;
+	font-family: '宋体';
+	float: left;
+	color: #666;
+}
+.comment .right .box p  b{
+	line-height: 16px;
+	float: left;
+	overflow: hidden;
+}
+.comment .right .box p  b img{
+	float: left;
+	vertical-align: middle;
+	display:inline-block;
+	margin-right: 3px;
+	cursor: pointer;
+}
+.comment .right .box p  span{
+	line-height: 16px;
+	font-size: 12px;
+	color: #999;
+	font-family: '宋体';
+	margin-left: 20px;
+	display: inline-block;
+}
+.comment .right .box .head{
+	width: 540px;
+	overflow: hidden;
+}
+.comment .right .box .head p{
+	/*float: left;*/
+	float: left;
+	width: 240px;
+}
+.comment .right .box div  ul {
+	width: 690px;
+	float: left;
+}
+.comment .right .box div  ul li {
+	float: left;
+	width: 101px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #e5e5e5;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #666;
+	font-family: '宋体';
+	text-align: center;
+}
+.comment .right .box div  ul li.on{
+	width: 103px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	background: url(../images/comment.jpg) no-repeat;
+}
+.comment .right .box  .textarea{
+	width: 690px;
+	float: left;
+}
+.comment .right .box  .textarea textarea{
+	width: 100%;
+	display: block;
+	padding: 10px;
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.comment .right .box  .textarea  h4{
+	height: 28px;
+	background: #f5f5f5;
+	line-height: 28px;
+	font-size: 12px;
+	color: #999;
+	text-align: right;
+	font-family: '宋体';
+	padding-right: 20px;
+
+	border: 1px solid #e5e5e5;
+	border-top: none;
+}
+.comment .right .box  .textarea  h4 b{
+	color: #ff0000;
+}
+.comment .right .box  .textarea span{
+	margin-top: 10px;
+	overflow: hidden;
+	font-size: 12px;
+	color: #999;
+	display: block;
+	line-height: 49px;
+	font-family: '宋体';
+}
+.comment .right .box  .textarea span b{
+	color: #ff0000;
+}
+.comment .right .box  .textarea span img{
+	float: left;
+	display: block;
+	cursor: pointer;
+	margin-right: 12px;
+}
+.submit{
+	margin-top: 54px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+.submit a{
+	font-size: 18px;
+	color: #fff;
+	background: #000;
+	cursor: pointer;
+	text-align: center;
+	line-height: 46px;
+	height: 46px;
+	width: 220px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.submit  span{
+	width:120px;
+	height: 46px;
+	z-index: 10;
+	text-align: center;
+	line-height: 46px;
+	background: #f5f5f5;
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+}
+.submit  span input{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+	display: inline-block;
+}
+.comment .right .box p i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	float: left;
+	vertical-align: middle;
+	margin-right: 3px;
+	background: url(../images/icon30.png);
+	cursor: pointer;
+}
+.comment .right .box p i.on{
+	background: url(../images/icon31.png);
+}

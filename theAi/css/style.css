@@ -1,0 +1,738 @@
+.banner{
+	position: relative;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+.banner .bd{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	bottom: 34px;
+}
+.banner .bd span{
+	margin: 0 8px;
+	text-align: center;
+	display:inline-block;
+	width: 22px;
+	height: 22px;
+	color: #fff;
+	line-height: 22px;
+}
+.banner .bd .swiper-pagination-bullet-active,.banner .bd .swiper-active-switch{
+	background: #000000;
+}
+.banner .bann ul li{
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+}
+.banner .bann ul li a{
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 1920px;
+	height: 600px;
+	left: 50%;
+	margin-left: -960px;
+}
+.banner .bann ul li a img{
+	display: block;
+	height: 600px;
+}
+.banner .addbox{
+	width: 1200px;
+	position: absolute;
+	z-index: 1;
+	left:50%;
+	top: 0;
+	margin-left: -600px;
+	height: 600px;
+}
+.banner .add{
+	position: absolute;
+	z-index: 999;
+	right: 0;
+	bottom: 0;
+	width: 210px;
+	background: #fff;
+}
+.banner .add .tabs{
+	margin: 16px 12px 0;
+}
+.banner .add .tabs ul li{
+	font-size: 12px;
+	float: left;
+	color: #000;
+	cursor: pointer;
+	width: 50%;
+	text-align: center;
+	line-height: 24px;
+	height: 24px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.banner .add .tabs ul li.on,.banner .add .tabs ul li:hover{
+	color: #ff0000;
+}
+.banner .add .tab ul {
+	margin: 10px  12px;
+}
+.banner .add .tab ul li.on a,.banner .add .tab ul li:hover a{
+	color: #ff6600;
+}
+.banner .add .tab ul li a{
+	font-size: 12px;
+	display: block;
+	line-height: 36px;
+	height: 36px;
+	font-family: "宋体";
+	color: #666666;
+}
+.banner .add .mid{
+	overflow: hidden;
+}
+.banner .add .mid ul{
+	margin-right: -3px;
+	overflow: hidden;
+	border-bottom:1px solid #e5e3e3;
+}
+.banner .add .mid ul li:hover span{
+	color: #ff6600;
+}
+.banner .add .mid ul li{
+	float: left;
+	width: 70px;
+	border-top: 1px solid #e5e3e3;
+	border-right: 1px solid #e5e3e3;
+}
+.banner .add .mid ul li a{
+	margin-top: 10px;
+	display: block;
+}
+.banner .add .mid ul li span{
+	display: block;
+	margin-bottom: 12px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+	font-family: '宋体';
+}
+.banner .add .foot p{
+	margin-top: 20px;
+	text-indent: 12px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #333;
+}
+.banner .add .foot ul {
+	margin-left: 15px;
+	margin-bottom: 28px;
+}
+.banner .add .foot ul li{
+	float: left;
+	margin-right: 15px;
+}
+.banner .add .foot ul li a,
+.banner .add .foot ul li a img{
+	display: block;
+	width: 100%;
+}
+.productlist{
+	margin-top: 45px;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	position: relative;
+	border: 1px solid #e8e7e7;
+}
+.productlist h2{
+	position: absolute;
+	font-weight: bold;
+	left: 50%;
+	margin-left: -167.5px;
+	z-index: 10;
+	top: -13px;
+	background: #fff;
+	width: 335px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 22px;
+	text-indent: 15px;
+}
+.productlist h2 span{
+	font-size: 12px;
+	color: #666;
+	margin-left: 10px;
+}
+.productlist ul{
+	margin-right: -2px;
+	overflow: hidden;
+}
+.productlist ul li{
+	float: left;
+	width: 210px;
+	margin:  0 15px;
+}
+.productlist ul li .pic{
+	position: relative;
+	border: 1px solid transparent;
+}
+.productlist ul li:hover .pic{
+	border: 1px solid #ffdf4a;
+}
+.productlist ul li .pic a,.productlist ul li .pic img{
+	display: block;
+	width: 100%;
+}
+.productlist ul li .pic span{
+	display: inline-block;
+	width: 40px;
+	height: 47px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	background: url(../images/icon4.png) no-repeat center;
+}
+.productlist ul li .text h3 a{
+	font-size: 14px;
+	display: block;
+	color: #333333;
+	text-indent: 6px;
+	height: 34px;
+	line-height: 34px;
+}
+.productlist ul li .text p{
+	font-size: 12px;
+	font-family: "宋体";
+	padding-left: 20px;
+	height: 18px;
+	line-height: 18px;
+	color: #999;
+	background: url(../images/icon3.png) no-repeat 5px center;
+}
+.productlist ul li .text span{
+	font-size: 18px;
+	color: #000;
+	display: block;
+	margin-top: 5px;
+}	
+.productlist ul li .text span i{
+	font-size: 12px;
+	color: #000;
+}
+.productlist ul li .text span b{
+	font-size: 12px;
+	color: #666;
+	display: inline-block;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.tablist {
+	margin-top: 37px;
+	overflow: hidden;
+}
+.tablist  .left{
+	float: left;
+	width: 976px;
+}
+.tablist  .left .tabs{
+	margin-bottom: 13px;
+}
+.tablist  .left .tabs ul li{
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	line-height: 43px;
+	height: 43px;
+	cursor:pointer;
+	border-bottom: 4px solid #000;
+}
+.tablist  .left .tabs ul li.on{
+	color: #ff0000;
+	border-bottom: none;
+	padding-bottom: 4px;
+	background: url(../images/line2.png) repeat-x bottom center;
+}
+.tablist .tab ul{
+	margin-right: -12px;
+	overflow: hidden;
+}
+.tablist .tab ul li{
+	float: left;
+	position: relative;
+	border: 1px solid #d2d2d2;
+	width: 235px;
+	margin-right: 9px;
+}
+.tablist .tab ul li:hover{
+	border: 1px solid #3eca07;
+}
+.tablist .tab ul li img{
+	display: block;
+}
+.tablist .tab ul li a,.tablist .tab ul li a img{
+	display: block;
+}
+.tablist .tab ul li b{
+	display:inline-block;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	z-index: 10;
+}
+.tablist .tab ul li .text{
+	position: absolute;
+	bottom: 10px;
+	left: 8px;
+}
+.tablist .tab ul li .text p{
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 5px;
+}
+.tablist .tab ul li .text span{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 10px;
+}
+.tablist .tab ul li .text i{
+	display: inline-block;
+	color: #ff0000;
+	font-size: 12px;
+	padding: 2px;
+	border: 1px solid #ff0000;
+}
+.tablist  .right{
+	width: 210px;
+	float: right;
+	border: 1px solid #d2d2d2;
+}
+.tablist  .right .box{
+	padding: 17px 17px 7px;
+}
+.tablist  .right .box h2{
+	line-height: 48px;
+	height: 48px;
+	font-size: 18px;
+	background: url(../images/icon5.png) no-repeat left center; 
+	color: #ff0000;
+	padding-left: 25px;
+	border-bottom: 1px dotted #666;
+}
+.tablist  .right .box h2 a{
+	float: right;
+	font-size: 12px;
+	color: #ff0000;
+	font-family: "宋体";
+}
+.tablist  .right .box p{
+	font-size: 14px;
+	color: #282828;
+	line-height: 30px; 
+}
+.tablist  .right .box p:hover a{
+	color: #ff0000;
+}
+.tablist  .right .box .text{
+	overflow: hidden;
+	cursor: pointer;
+	border-top: 1px dotted #666;
+}
+.tablist  .right .box .text a{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	-webkit-transition:All 0.4s ease-in-out;    
+	-moz-transition:All 0.4s ease-in-out;    
+	-o-transition:All 0.4s ease-in-out;
+	transition:All 0.4s ease-in-out;  
+}
+.tablist  .right .box .text:hover a{
+	-webkit-transform:translate(0,-10px);    
+	-moz-transform:translate(0,-10px);    
+	-o-transform:translate(0,-10px);    
+	-ms-transform:translate(0,-10px);
+	transform:translate(0,-10px);    
+}
+.tablist  .right .box .text b{
+	font-size: 14px;
+	display: block;
+	margin-top: 75px;
+	color: #333333;
+}
+.tablist  .right .box .text span{
+	font-size: 14px;
+	color: #ff0000;
+}
+.productbox {
+	margin: 36px 0;
+	overflow: hidden;
+}
+.productbox .left{
+	float: left;
+	width: 211px;
+	background: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 12px 12px 34px;
+	height: 460px;
+	overflow: hidden;
+}
+.productbox .left h3{
+	color: #fdf404;
+	font-size: 14px;
+	padding-top: 15px;
+}
+.productbox .left h4{
+	font-size: 20px;
+	color: #fdf404;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #666;
+}
+.productbox .left ul li{
+	padding: 18px 0 5px;
+}
+.productbox .left ul li p{
+	font-size: 16px;
+	margin-bottom: 8px;
+	color: #fdf404;
+}
+.productbox .left ul li dd{
+	float: left;
+}
+.productbox .left ul li dl{
+	margin-right: -17px;
+}
+.productbox .left ul li dd a:hover{
+	color: #fdf404;
+}
+.productbox .left ul li dd a{
+	line-height: 18px;
+	height: 18px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 12px;
+	color: #fff;
+	font-size: 14px;
+}
+.productbox .middle{
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 312px;
+	margin-left: 17px;
+}
+.productbox .middle>a{
+	display: block;
+}
+.productbox .middle a img{
+	display: block;
+}
+.productbox .middle li{
+	position: relative;
+}
+.productbox .middle li:hover .text{
+	display: block;
+}
+.productbox .middle .text{
+	height: 120px;
+	padding:0 20px ;
+	position: absolute;
+	display: block;
+	bottom: 0;
+	left: 0;
+	background: rgb(0, 0, 0); 
+	background: rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.productbox .middle .text h3 {
+	padding-top: 20px;
+}
+.productbox .middle .text h3 a{
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	color: #fff;
+}
+.productbox .middle .text h3 span{
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #fdf404;
+	display: block;
+	margin-right: 20px;
+}
+.productbox .middle .text p{
+	font-size:12px;
+	color: #fff;
+	margin-top: 5px;
+	line-height: 20px;
+	font-family: "宋体";
+}
+.productbox .middle .prev,.productbox .middle .next{
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	top: 50%;
+	margin-top: -17px;
+	z-index: 10;
+	width: 34px;
+	height: 34px;
+	background: rgba(255,255,255,0.5);
+}
+.productbox .middle .prev img,.productbox .middle .next img{
+	position: absolute;
+	display: inline-block!important;
+	left: 50%;
+	margin-left:-4px;
+	top:50%;
+	margin-top: -11.5px;
+}
+.productbox .middle .prev{
+	left: 0;
+}
+.productbox .middle .next{
+	right: 0;
+}
+.productbox .middle .prev:hover,.productbox .middle .next:hover{
+	background: rgb(0, 0, 0); 
+	background: rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.productbox .right{
+	float: right;
+	width: 646px;
+	height: 460px;
+}
+.productbox .right ul {
+	margin-right:-14px;
+	overflow: hidden;
+}
+.productbox .right ul li{
+	float: left;
+	margin-right: 14px;
+	width: 206px;
+	margin-bottom:25px;
+	overflow: hidden;
+}
+.productbox .right ul li .pic{
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.productbox .right ul li .pic img{
+	display: block;
+	border: 1px solid transparent;
+}
+.productbox .right ul li:hover .pic img{
+	border: 1px solid #ff5400;
+}
+.productbox .right ul li:hover span,
+.productbox .right ul li:hover span i{
+	color: #ff5400;
+}
+.productbox .right ul li .pic>a,
+.productbox .right ul li .pic a img{
+	display: block;
+}
+.productbox .right ul li .pic b{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 55px;
+	height: 55px;
+	text-indent: 24.5px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 30.5px;
+	z-index: 10;
+	background: url(../images/icon6.png) no-repeat top right;
+}
+.productbox .right ul li p a{
+	font-size: 12px;
+	color: #333;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+	overflow: hidden;
+	font-family: "宋体";
+	display: block;
+}
+.productbox .right ul li p{
+	font-size: 12px;
+	overflow: hidden;
+	color: #333;
+	height: 25px;
+	line-height: 25px;
+	font-family: "宋体";
+}
+.productbox .right ul li span{
+	display: block;
+	font-size: 16px;
+	padding-left: 5px;
+	height: 20px;
+	color: #000;
+}
+.productbox .right ul li span i{
+	font-size: 12px;
+}
+.adv {
+	position: relative;
+}
+.adv img {
+	display: block;
+	width: 100%;
+}
+.adv .text{
+	position: absolute;
+	z-index: 10;
+	top: 15px;
+	background:rgba(0,0,0,0.5);
+	height: 77px;
+	width: 264px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 53px;
+}
+.adv .text p{
+	font-size: 14px;
+	margin-top: 5px;
+	color: #fff;
+}
+.adv .text span{
+	display: block;
+	font-size: 18px;
+	color: #fcf302;
+	margin:0px  0 3px;
+}
+.adv .text a{
+	display: inline-block;
+	width: 96px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	background: #fff;
+}
+.hotproduct{
+	overflow: hidden;
+	position: relative;
+	margin:36px 0;
+}
+.hotproduct .left{
+	float: left;
+	width: 584px;
+	overflow: hidden;
+	position: relative;
+}
+.hotproduct .left ul li,.hotproduct .left ul li a,.hotproduct .left ul li img{
+	display: block;
+	position: relative;
+}
+.hotproduct .left .prev,.hotproduct .left .next{
+	position: absolute;
+	top: 50%;
+	display: block;
+	height: 46px;
+	width: 37px;
+	margin-top: -23px;
+	z-index: 10;
+	cursor: pointer;
+	background: rgb(0, 0, 0); 
+	background: rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.hotproduct .left .prev img,.hotproduct .left .next img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14px;
+	margin-left: -6.5px;
+	z-index: 10;
+	display: block;
+}
+.hotproduct .left .prev{
+	left: 0;
+}
+.hotproduct .left .next{
+	right: 0;
+}
+.hotproduct .left .bd{
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	bottom: 16px;
+	text-align: center;
+}
+.hotproduct .left .bd span{
+	width: 22px;
+	height: 4px;
+	display: inline-block;
+	margin:0 4px;
+	border-radius: 1px;
+	background: #000;
+}
+.hotproduct .left .bd .swiper-pagination-bullet-active,.hotproduct .left .bd .swiper-active-switch{
+	background: #fff;
+}
+.hotproduct .right{
+	float: right;
+	width: 598px;
+	height: 401px;
+	overflow: hidden;
+}
+.hotproduct .right ul{
+	margin-right: -18px;
+	overflow: hidden;
+}
+.hotproduct .right ul li{
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 19px;
+}
+.hotproduct .right ul li+li+li{
+	float: none;
+	margin-left: 320px;
+}
+.hotproduct .right ul li a,.hotproduct .right ul li a img{
+	display: block;
+}
+.hotproduct .right ul li a{
+	width: 302px;
+	height: 191px;
+	overflow: hidden;
+}
+.hotproduct .right ul li+li+li a{
+	width: 278px;
+	height: 401px;
+}
+.hotproduct .right ul li a img{
+	width: 100%;
+	-webkit-transition:All 0.4s ease-in-out;    
+	-moz-transition:All 0.4s ease-in-out;  
+	-ms-transition:All 0.4s ease-in-out;   
+	-o-transition:All 0.4s ease-in-out;
+	transition:All 0.4s ease-in-out;
+}
+.hotproduct .right ul li:hover a img{
+	-webkit-transform:scale(1.1);    
+	-moz-transform:scale(1.1);    
+	-o-transform:scale(1.1);    
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
+}

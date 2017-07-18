@@ -1,0 +1,128 @@
+.form{
+	margin-top: 140px;
+	overflow: hidden;
+	margin-bottom: 200px;
+}
+.form .left{
+	float: left;
+	margin-left: 34px;
+}
+.form .left img{
+	display: block;
+}
+.form .right{
+	float: right;
+	width: 308px;
+	padding: 0  18px;
+	border: 1px solid #dcdcdc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: 150px;
+}
+.form .right h3{
+	font-size: 16px;
+	color: #666666;
+	margin: 0 -18px;
+	height: 38px;
+	text-indent: 18px;
+	margin-bottom: 18px;
+	background:#f1f1f1 url(../images/icon12.png) no-repeat 268px center;
+	line-height: 38px;
+}
+.form .right p{
+	line-height: 28px;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.form .right p label{
+	width: 66px;
+	display: block;
+	float: left;
+	line-height: 28px;
+	font-size: 14px;
+	color: #444;
+	text-align: right;
+}
+.form .right p input{
+	height: 26px;
+	float: left;
+	line-height: 26px;
+	border: 1px solid #cecece;
+	padding:  0 5px;
+	width: 190px;
+	font-size: 14px;
+}
+.form .right .yzm input{
+	width: 54px;
+}
+.form .right .yzm img{
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.form .right .yzm span{
+	font-size: 10px;
+	color: #444;
+	cursor: pointer;
+}
+.form .right button{
+	width: 249px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: #000;
+	border-radius: 5px;
+	display: block;
+	margin:  0 auto;
+}
+.form .right .register{
+	line-height: 42px;
+	overflow: hidden;
+	padding: 0 10px;
+	border-bottom:1px solid  #dcdcdc;
+}
+.form .right .register a{
+	float: left;
+	font-size: 12px;
+	display: block;
+	line-height: 42px;
+	height: 42px;
+	color: #444;
+	text-decoration: underline!important;
+}
+.form .right .register a+a{
+	float: right;
+}
+.form .right h4{
+	font-size: 12px;
+	font-family: '宋体';
+	color: #444;
+	margin-top: 14px;
+}
+.form .right ul{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.form .right ul li{
+	float: left;
+	width: 33.33333%;
+	height: 20px;
+	line-height: 20px;
+}
+.form .right ul li a img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.form .right ul li a{
+	display: block;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #444;
+	font-family:'宋体';
+}

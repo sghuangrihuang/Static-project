@@ -1,0 +1,290 @@
+.userbox{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 48px;
+}
+.userbox .usernav{
+	float: left;
+	width: 200px;
+	border: 1px solid #e5e5e5;
+}
+.userbox .usernav ul{
+	margin: 15px 20px 40px 10px;
+}
+.userbox .usernav ul li p{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 6px;
+}
+.userbox .usernav ul li ol li a{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	text-indent: 3px;
+	font-size: 12px;
+	font-family:'宋体';
+	color: #666666;
+}
+.userbox .userright{
+	float: right;
+	width: 980px;
+}
+.userbox .user{
+
+}
+.orderhead {
+	overflow: hidden;
+}
+.orderhead  ul li.on{
+	border-bottom: 1px solid #000000;
+	color: #ff0000;
+}
+.orderhead  ul li{
+	float: left;
+	line-height: 48px;
+	height: 48px;
+	font-size: 16px;
+	color: #000;
+	cursor: pointer;
+	width: 120px;
+	border-bottom: 1px solid #d2d2d2;
+}
+.orderhead  ul li+li{
+	width: 107.5px;
+	text-align: center;
+}
+.ordermid{
+	margin-top: 30px;
+	border: 1px solid #dfdfdf;
+	padding:  22px 30px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.ordermid label{
+	font-size: 14px;
+	color: #000;
+	display: inline-block;
+}
+.ordermid input{
+	line-height: 22px;
+	height: 22px;
+	width: 155px;
+	padding:  0 5px;
+	border: 1px solid #dfdfdf;
+}
+.ordermid select{
+	width: 90px;
+	border: 1px solid #dfdfdf;
+	height: 24px;
+	cursor: pointer;
+	line-height: 24px;
+}
+.ordermid button{
+	height: 24px;
+	line-height: 24px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	border: none;
+	width: 47px;
+	float: right;
+	background: #ff0000;
+}
+.orderfoot {
+	margin-top: 18px;
+	border: 1px solid #dfdfdf;
+}
+.orderfoot .thead{
+	padding: 0 36px;
+	background: #fafafa;
+	border-bottom: 1px solid #dfdfdf;
+}
+.orderfoot .thead ul li{
+	float: left;
+	width: 35%;
+	font-size: 14px;
+	color: #666666;
+	font-family: '宋体';
+	line-height: 44px;
+	height: 44px;
+}
+.orderfoot .thead ul li+li{
+	width: 30%;
+	text-align: center;
+}
+.orderfoot .thead ul li+li+li{
+	width: 35%;
+	text-align: right;
+}
+.orderfoot .tbody{
+}
+.orderfoot .tbody  li{
+	overflow: hidden;
+	padding: 12px 36px ;
+	border-bottom: 1px solid #dfdfdf;
+}
+.orderfoot .tbody .left{
+	width: 35%;
+	float: left;
+}
+.orderfoot .tbody .left>a{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.orderfoot .tbody .left a img{
+	display: block;
+}
+.orderfoot .tbody .left p a{
+	font-size: 12px;
+	color: #333;
+	line-height: 14px;
+	display: block;
+	font-family: '宋体';
+}
+.orderfoot .tbody .left p{
+	margin-top: 15px;
+}
+.orderfoot .tbody .left span{
+	display: block;
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #666;
+}
+.orderfoot .tbody .left span b{
+	float: right;
+	font-size: 12px;
+	font-family: '宋体';
+	color: #666;
+}
+.orderfoot .tbody .left span b i{
+	color: #333;
+	font-weight: bold;
+}
+
+.orderfoot .tbody .middle{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.orderfoot .tbody .middle p{
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: '宋体';
+	font-weight: bold;
+	color: #333333;
+}
+.orderfoot .tbody .middle span{
+	display:block;
+	font-family: '宋体';
+	color: #666;
+	margin-top: 5px;
+	text-decoration: line-through;
+	font-size: 12px;
+}
+.orderfoot .tbody .right{
+	float: left;
+	overflow: hidden;
+	width: 35%;
+}
+.orderfoot .tbody .right .fl{
+	margin-top: 11px;
+	width: 76px;
+}
+.orderfoot .tbody .right .fl a{
+	font-size: 12px;	
+	font-family: '宋体';
+	display: block;
+	text-align: center;
+	height: 23px;
+	line-height: 23px;
+	background: #000;
+	color: #fff;
+}
+.orderfoot .tbody .right .fl a+a{
+	background: #fff;
+	margin-top: 8px;
+	color: #000;
+}
+.orderfoot .tbody .right .fr{
+	margin-top:27px;
+}
+.orderfoot .tbody .right .fr a{
+	font-size: 12px;
+	font-family: '宋体';
+	color: #848484;
+}
+.paging{
+	margin-top: 38px;
+	overflow: hidden;
+	display: block;
+	text-align: right;
+}
+.paging div{
+	display: inline-block;
+	float: right;
+	overflow: hidden;
+}
+.paging div ul{
+	float: left;
+	display: inline-block;
+}
+.paging div ul li{
+	float: left;
+	margin:  0 2.5px;
+}
+.paging div ul li a{
+	padding:  0 5px;
+	text-align: center;
+	font-size: 14px;
+	color: #464444;
+	display: block;
+	background: #fff;
+	height: 25px;
+	color: #000;
+	line-height: 25px;
+	border: 1px solid #e5e5e5;
+}
+.paging div ul li.on{
+	background: #000;
+}
+.paging div ul li.on a{
+	background: #000;
+	color: #fff;
+}
+.paging div span{
+	display: inline-block;
+	margin:  0 5px;
+	height: 27px;
+	line-height: 27px;
+	font-size: 12px;
+	color: #464444;
+}
+.paging div input{
+	display: inline-block;
+	width: 40px;
+	border: 1px solid #e5e5e5;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Arial';
+}
+.paging div button{
+	display: inline-block;
+	width: 42px;
+	cursor: pointer;
+	border: 1px solid #e5e5e5;
+	height: 27px;
+	background: #fff;
+	line-height: 27px;
+	text-align: center;
+	font-size: 14px;
+	font-family: '宋体';
+}
