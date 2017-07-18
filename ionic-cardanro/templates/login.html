@@ -1,0 +1,18 @@
+<ion-view class="login" view-title="登录">
+    <form>
+        <h2>欢迎回来</h2>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" ng-model="loginData.username" placeholder="会员名/手机号">
+            </label>
+            <label class="item item-input">
+                <input type="password" ng-model="loginData.password" placeholder="密码">
+            </label>
+            <span>
+              <a class="label" href="#/register" >忘记密码</a>
+              <a class="label" href="#/register" >注册</a>
+            </span>
+            <a type="submit" class="btn" href="#/app/userlists">登录</a>
+        </div>
+    </form>
+</ion-view>

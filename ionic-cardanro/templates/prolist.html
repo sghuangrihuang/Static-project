@@ -1,0 +1,118 @@
+<ion-view view-title="产品列表" class="prolist">
+    <ion-side-menus>
+        <ion-side-menu-content>
+            <ion-header-bar align-title="center" class="bar-clear barheader">
+                <div class="buttons">
+                    <button class="button button-icon button-dark ion-navicon-round" menu-toggle="left"></button>
+                </div>
+                <input type="button" class="input" ng-focus="showtime()" />
+                <div class="buttons">
+                    <button class="button button-icon button-dark ion-ios-search-strong" on-tap="showtime()"></button>
+                </div>
+            </ion-header-bar>
+            <ion-content class="topcontent">
+                <ion-list class="sortleft">
+                    <ion-item ng-repeat="(index,list) in sortlist" class="leftlist	" on-tap="listselelct(index)">
+                        {{list.text}}
+                    </ion-item>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>洁面</h3>
+                    <ion-slide-box on-slide-changed="slideHasChanged($index)" does-continue="true">
+                        <ion-slide>
+                            <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
+                                <b>
+								    <img ng-src="{{list.src}}">
+						        </b>
+                                <p>
+                                    <span ng-bind='list.text'></span>
+                                    <span class="price">¥{{list.price}}</span>
+                                    <span class="use">{{list.star}}<b ng-bind='list.use'></b></span>
+                                </p>
+                            </ion-item>
+                        </ion-slide>
+                        <ion-slide>
+                            <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
+                                <b>
+								    <img ng-src="{{list.src}}">
+							    </b>
+                                <p>
+                                    <span ng-bind='list.text'></span>
+                                    <span class="price">¥{{list.price}}</span>
+                                    <span class="use">{{list.star}}<b ng-bind='list.use'></b></span>
+                                </p>
+                            </ion-item>
+                        </ion-slide>
+                        <ion-slide>
+                            <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
+                                <b>
+								    <img ng-src="{{list.src}}">
+							    </b>
+                                <p>
+                                    <span ng-bind='list.text'></span>
+                                    <span class="price">¥{{list.price}}</span>
+                                    <span class="use">{{list.star}}<b ng-bind='list.use'></b></span>
+                                </p>
+                            </ion-item>
+                        </ion-slide>
+                    </ion-slide-box>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>系列产品</h3>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>面部产品</h3>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>香氛</h3>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>身体护理</h3>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>发部护理</h3>
+                </ion-list>
+                <ion-list class="listright">
+                    <h3>男士推荐</h3>
+                </ion-list>
+            </ion-content>
+        </ion-side-menu-content>
+        <ion-side-menu side="left" class="leftside">
+            <ion-header-bar class="bar-stable">
+                <h1 class="title">侧边导航栏</h1>
+            </ion-header-bar>
+            <ion-content>
+                <ion-list>
+                    <ion-item menu-close href="#/login">
+                        登录
+                    </ion-item>
+                    <ion-item menu-close href="#/app/prosort">
+                        分类
+                    </ion-item>
+                    <ion-item menu-close href="#/procart">
+                        购物车
+                    </ion-item>
+                    <ion-item menu-close href="#/app/userlists">
+                        个人中心
+                    </ion-item>
+                </ion-list>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
+    <ion-footer-bar class="copyfoot">
+        <div class="tabs tabs-icon-top">
+            <a href="#/app/homepage" class="tab-item">
+                <i class="icon ion-android-home"></i> 首页
+            </a>
+            <a href="#/app/prosort" class="tab-item">
+                <i class="icon ion-android-apps"></i> 分类
+            </a>
+            <a href="#/procart" class="tab-item">
+                <i class="icon ion-android-cart"></i> 购物车
+            </a>
+            <a href="#/app/userlists" class="tab-item">
+                <i class="icon ion-android-person"></i> 我的
+            </a>
+        </div>
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,77 @@
+<ion-view view-title="购物车" class="procart">
+    <ion-header-bar align-title="center" class="bar-clear proheader">
+        <a href="javascript:history.back()" class="button button-icon light">
+            <i class="icon ion-ios-arrow-left"></i>
+        </a>
+        <h1 class="title">我的购物车</h1>
+        <a on-tap="share()" class="button button-icon light">
+            <i class="icon ion-android-share-alt"></i>
+        </a>
+    </ion-header-bar>
+    <ion-content class="topcontent">
+        <ion-list class="procart_head">
+            <ion-item>
+                <a>
+                    <img ng-src="img/ico1.png" alt="">
+                    <span>代付款</span>
+                </a>
+            </ion-item>
+            <ion-item>
+                <a>
+                    <img ng-src="img/ico2.png" alt="">
+                    <span>待收货</span>
+                </a>
+            </ion-item>
+            <ion-item>
+                <a>
+                    <img ng-src="img/ico3.png" alt="">
+                    <span>已收货</span>
+                </a>
+            </ion-item>
+        </ion-list>
+        <div class="addshop" ng-show='getData.show'>
+            <a href="#/app/prosort">亲，您的购物车为空，是否点击进入购物</a>
+        </div>
+        <ion-list class="list-with-price procart_body" ng-hide='getData.show'>
+            <ion-item class="item-thumbnail-left " ng-repeat="arr in getData.list track by $index">
+                <div class="rows">
+                    <p class="colsleft">
+                        <ion-checkbox ng-model="arr.checked" on-tap="select()"></ion-checkbox>
+                        <a href="#/prodetail/{{arr.id}}"><img ng-src="{{arr.src}}"></a>
+                    </p>
+                    <p class="colsright" on-hold="opea($index)" on-tap="hreflist({{arr.id}})">
+                        <span ng-bind='arr.text'></span>
+                        <span class="count">数量：<b ng-bind='arr.count'></b>
+                            <span class="discount">折扣：<b ng-bind='arr.discount'></b></span>
+                        </span>
+                        <span class="price">¥{{arr.price}}<b ng-bind='arr.cost'></b></span>
+                    </p>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <script id="popover.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar align-title="center" class="bar-positive">
+                <h1 class="title">修改页面</h1>
+                <div class="buttons">
+                    <button class="button button-icon button-positive ion-close-circled" on-tap="closemodeal()"></button>
+                </div>
+            </ion-header-bar>
+            <ion-content>
+                <label class="item-input">
+                    <span class="input-label">数量</span>
+                    <input type="text" id="fixcount" ng-model="getData.newcount" maxlength="2">
+                </label>
+                <button class="button button-full button-positive" on-tap="modalhide(getData.newcount)">修改</button>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+    <ion-footer-bar class="procart_bot">
+        <ion-checkbox ng-model="getData.allchecked" on-tap="allselect()"></ion-checkbox>
+        <label>全选</label>
+        <span>合计：<b>{{ getData.allsum | myfilter }}</b></span>
+        <a class="check" on-tap="hrefcart()">前往确认</a>
+    </ion-footer-bar>
+</ion-view>
+

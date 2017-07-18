@@ -1,0 +1,217 @@
+<ion-view view-title="产品详情" class="prodetail">
+    <ion-header-bar align-title="center" class="bar-clear proheader">
+        <a href="javascript:history.back()" class="button button-icon light"><i class="icon ion-ios-arrow-left"></i></a>
+        <h1 class="title" ng-bind='detaillist.text'></h1>
+        <a on-tap="share()" class="button button-icon light"><i class="icon ion-android-share-alt"></i></a>
+    </ion-header-bar>
+    <ion-content class="topcontent">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" does-continue="true">
+            <ion-slide>
+                <div>
+                    <img src="img/pic23.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div>
+                    <img src="img/pic23.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div>
+                    <img src="img/pic23.jpg">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="procontent">
+            <div class="top">
+                <div class="propic">
+                    <p class="proleft"><img src="img/pic24.jpg"></p>
+                    <p class="proright">
+                        <b>天然芍药萃取</b>
+                        <b>令肌肤散发健康光彩</b>
+                        <span>质感轻盈</span>
+                        <span>深度水嫩保湿</span>
+                        <span>打造柔嫩透亮的水润肌肤</span>
+                    </p>
+                </div>
+                <div class="propic">
+                    <p class="proleft"><img src="img/pic25.jpg"></p>
+                    <p class="proright on">
+                        <b>主要成分</b>
+                        <span>芍药精萃</span>
+                        <span>乳木果油</span>
+                        <span>七叶树精萃</span>
+                        <span>向日葵籽油</span>
+                        <span>维生素E</span>
+                    </p>
+                </div>
+                <div class="propic">
+                    <p class="proleft"><img src="img/pic26.jpg"></p>
+                    <p class="proright">
+                        <b>自带“美颜”效果</b>
+                        <b>柔滑触感，明亮宛若无暇</b>
+                        <span>改善肌肤粗糙、肤色不均和肌肤黯沉</span>
+                        <span>天然保湿因子，时刻保持肌肤水分</span>
+                    </p>
+                </div>
+                <div class="protext">
+                    <p>卓效修护保湿霜，轻盈丝滑的乳霜质地，蕴含芍药根提取物等多种天然植物精萃，深度水嫩保湿，有效改善肤色不均、暗沉和肌肤粗糙等现象。卓效滋润配方，每天使用有助肌肤更加均匀透亮、水嫩弹润，润泽舒爽，散发粉嫩饱满的健康光彩。</p>
+                    <p><b ng-bind='detaillist.price'></b><a>降价通知</a></p>
+                    <span>欧舒丹美肌无暇系列保湿霜340ML</span>
+                </div>
+            </div>
+            <div class="bot">
+                <div class="pictext texttop">
+                    <p>
+                        <span>活动</span>
+                        <i>可以参与以下礼赠<br/><br/>
+                            <a><b>礼赠</b>
+                            <strong>购买单品满480元赠保湿3件套：乳木果保湿凝霜3ML、芍药花香润手霜10ML、芍药伞(数量有限，送完即止)</strong>
+                            </a>
+                            <br/><br/>
+                            <b>礼赠</b>
+                            <strong>购买单品满880元赠护肤4件套：乳木果保湿凝霜3ML、芍药花香润手霜10ML、芍药伞、焕亮温和保湿水30ML(数量有限，送完即止)</strong>
+                            <br/>
+                            <br/>
+                        </i>
+                    </p>
+                </div>
+                <div class="pictext textcenter">
+                    <p><span>已选</span><i>美肌无暇保湿霜    1瓶</i></p>
+                    <p><span>产品类型</span>
+                        <i>
+                        <a on-tap="a($event)" class="alist">美肌无暇系列</a>
+                        <a on-tap="a($event)" class="alist">美肌无暇保湿霜</a>
+                        <a on-tap="a($event)" class="alist">美肌无暇喷雾</a>
+                        <a on-tap="a($event)" class="alist">美肌无暇精华</a>
+                        <a on-tap="a($event)" class="alist">美肌无暇修颜乳</a>
+                        </i>
+                    </p>
+                    <p>
+                        <span>数量</span>
+                        <i>
+                            <button  on-tap="reduce($event)">-</button>
+                            <input type="text" maxlength="2" ng-model="count" ng-focus="inputfocus(count)" ng-blur="inputblur(count,$event)">
+                            <button  on-tap="add($event)">+</button>
+                        </i>
+                    </p>
+                </div>
+                <div class="pictext">
+                    <p><span>送至</span><i>广州   天河区   黄村<br/><em>现货</em></i></p>
+                    <p>
+                        <span>支付方式</span>
+                        <a on-tap="b($event)" class="bllst">支付宝</a>
+                        <a on-tap="b($event)" class="blist">货到付款</a>
+                    </p>
+                    <p><span>运费</span><i>购满500元即可免运费，不足500元运费为10元</i></p>
+                    <p><span>提示</span><i>7天内无条件退货</i></p>
+                </div>
+            </div>
+        </div>
+        <ion-list class="procomment">
+            <p class="head">
+                <b>评论(3000)</b>
+                <span>
+          好评
+          <i>99%</i>
+          <a href="">&gt;</a>
+        </span>
+            </p>
+            <ion-item>
+                <p>
+                    <span>★★★★★</span>
+                    <b>致***倾</b>
+                </p>
+                <p>使用了几天，感觉非常不错，而且包装也很漂亮，很喜欢，味道也很不错，敷在脸上很舒服，保湿的效果很好...</p>
+                <p>
+                    <img src="img/pic27.jpg">
+                    <img src="img/pic27.jpg">
+                </p>
+                <p>2016-06-01</p>
+            </ion-item>
+            <ion-item>
+                <p>
+                    <span>★★★★★</span>
+                    <b>致***倾</b>
+                </p>
+                <p>使用了几天，感觉非常不错，而且包装也很漂亮，很喜欢，味道也很不错，敷在脸上很舒服，保湿的效果很好...</p>
+                <p>
+                    <img src="img/pic27.jpg">
+                    <img src="img/pic27.jpg">
+                </p>
+                <p>2016-06-01</p>
+            </ion-item>
+            <ion-item>
+                <p>
+                    <span>★★★★★</span>
+                    <b>致***倾</b>
+                </p>
+                <p>使用了几天，感觉非常不错，而且包装也很漂亮，很喜欢，味道也很不错，敷在脸上很舒服，保湿的效果很好...</p>
+                <p>
+                    <img src="img/pic27.jpg">
+                    <img src="img/pic27.jpg">
+                </p>
+                <p>2016-06-01</p>
+            </ion-item>
+        </ion-list>
+        <ion-list class="proproduct">
+            <div class="head">
+                <p>
+                    <span><b></b><i>有图评价(2500)</i></span>
+                </p>
+                <p>
+                    <span><b></b><i>购买咨询(500)</i></span>
+                </p>
+            </div>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic28.jpg">
+                <span>芍药滋养润色润膏</span>
+                <b>¥160</b>
+            </ion-item>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic29.jpg">
+                <span>芍药滋养润色润膏</span>
+                <b>¥160</b>
+            </ion-item>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic30.jpg">
+                <span>芍药滋养润色润膏</span>
+                <b>¥160</b>
+            </ion-item>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic31.jpg">
+                <span>芍药润肤霜200ML</span>
+                <b>¥380</b>
+            </ion-item>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic32.jpg">
+                <span>芍药润肤霜200ML</span>
+                <b>¥380</b>
+            </ion-item>
+            <ion-item href="#/prodetail/0">
+                <img src="img/pic33.jpg">
+                <span>芍药润肤霜200ML</span>
+                <b>¥380</b>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="bar-clear prodetailbot">
+        <div class="tabs tabs-icon-top">
+            <a href="" class="tab-item">
+                <i class="icon ion-android-contacts"></i> 客服
+            </a>
+            <a href="" class="tab-item">
+                <i class="icon ion-ios-heart-outline"></i> 关注
+            </a>
+            <a href="#/procart" class="tab-item">
+                <i class="icon ion-android-cart"></i> 购物车
+            </a>
+            <a class="button button-positive" on-tap="addshopcar()">
+          加入购物车
+        </a>
+            <a href="#/order" class="button button-calm">
+          立即购买
+        </a>
+        </div>
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,104 @@
+<ion-view view-title="首页">
+    <ion-side-menus>
+        <ion-side-menu-content>
+            <ion-header-bar align-title="center" class="bar-clear barheader">
+                <div class="buttons">
+                    <button class="button button-icon button-dark ion-navicon-round" menu-toggle="left"></button>
+                </div>
+                <input type="button" class="input" ng-focus="showtime()" />
+                <div class="buttons">
+                    <button class="button button-icon button-dark ion-ios-search-strong" on-tap="showtime()"></button>
+                </div>
+            </ion-header-bar>
+            <ion-content class="topcontent">
+                <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false" does-continue="true" auto-play="true" slide-interval=3000 class="banner">
+                    <ion-slide>
+                        <a href="#/prodetail/0"><img src="img/pic.jpg"></a>
+                    </ion-slide>
+                    <ion-slide>
+                        <a href="#/prodetail/0"><img src="img/pic.jpg"></a>
+                    </ion-slide>
+                    <ion-slide>
+                        <a href="#/prodetail/0"><img src="img/pic.jpg"></a>
+                    </ion-slide>
+                </ion-slide-box>
+                <ion-list>
+                    <ion-item ng-repeat="item in homelists" class="hometopbox">
+                        <div>
+                            <a href="{{item.href}}">
+                                <img ng-src="{{item.src}}">
+                                <span ng-bind='item.text'></span>
+                            </a>
+                        </div>
+                    </ion-item>
+                </ion-list>
+                <ion-list>
+                    <div class="home_title">
+                        美肌无暇系列
+                    </div>
+                    <ion-item ng-repeat="item in homelists1" class="homelistbox">
+                        <a href="#/prodetail/{{item.id}}">
+                            <img ng-src="{{item.src}}" alt="">
+                            <span ng-bind='item.text'></span>
+                            <b ng-bind='item.price'></b>
+                        </a>
+                    </ion-item>
+                </ion-list>
+                <ion-list>
+                    <div class="home_title">
+                        芍药系列
+                    </div>
+                    <ion-item ng-repeat="item in homelists2" class="homelistbox">
+                        <a href="#/prodetail/{{item.id}}">
+                            <img ng-src="{{item.src}}" alt="">
+                            <span ng-bind='item.text'></span>
+                            <b ng-bind='item.price'></b>
+                        </a>
+                    </ion-item>
+                </ion-list>
+                <ion-list>
+                    <div class="home_title">
+                        防晒系列
+                    </div>
+                    <ion-item ng-repeat="item in homelists3" class="homelistbox">
+                        <a href="#/prodetail/{{item.id}}">
+                            <img ng-src="{{item.src}}" alt="">
+                            <span ng-bind='item.text'></span>
+                            <b ng-bind='item.price'></b>
+                        </a>
+                    </ion-item>
+                </ion-list>
+                <ion-list>
+                    <ion-item ng-repeat="item in successlist">
+                        <h1 ng-bind="item.SERVERPART_ID" style="font-size:12px;"></h1>
+                        <h1 ng-bind="item.SERVERPART_NAME" style="font-size:12px;"></h1>
+                        <h1 ng-bind="item.SERVERPART_CODE" style="font-size:12px;"></h1>
+                    </ion-item>
+                </ion-list>
+                <div ng-show='show' style="text-align: center;">数据加完成，无更多数据</div>
+                <ion-infinite-scroll spinner="ripple" on-infinite="loadMore()" distance="1%" icon="ion-loading-d"></ion-infinite-scroll>
+            </ion-content>
+        </ion-side-menu-content>
+        <ion-side-menu side="left" class="leftside">
+            <ion-header-bar class="bar-stable">
+                <h1 class="title">侧边导航栏</h1>
+            </ion-header-bar>
+            <ion-content>
+                <ion-list>
+                    <ion-item menu-close href="#/login">
+                        登录
+                    </ion-item>
+                    <ion-item menu-close href="#/app/prosort">
+                        分类
+                    </ion-item>
+                    <ion-item menu-close href="#/procart">
+                        购物车
+                    </ion-item>
+                    <ion-item menu-close href="#/app/userlists">
+                        个人中心
+                    </ion-item>
+                </ion-list>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
+</ion-view>

@@ -1,0 +1,78 @@
+<ion-view view-title="支付" class="procart">
+    <ion-header-bar align-title="center" class="bar-clear proheader">
+        <a href="javascript:history.back()" class="button button-icon light"><i class="icon ion-ios-arrow-left"></i></a>
+        <h1 class="title">支付页面</h1>
+        <a on-tap="share()" class="button button-icon light"><i class="icon ion-android-share-alt"></i></a>
+    </ion-header-bar>
+    <ion-content class="topcontent">
+        <ion-list class="list-with-price procart_body">
+            <ion-item class="item-thumbnail-left " ng-repeat="arr in getData.list track by $index">
+                <div class="rows">
+                    <p class="colsleft">
+                        <a class="pay_pic" href="#/prodetail/{{arr.id}}"><img ng-src="{{arr.src}}"></a>
+                    </p>
+                    <p class="colsright">
+                        <span on-tap="hreflist({{arr.id}})" ng-bind='arr.text'></span>
+                        <span class="count">数量：<b>{{arr.count}}</b>
+                        <span class="discount">折扣：<b>{{arr.discount}}</b></span>
+                        </span>
+                        <span class="price">¥{{arr.price}}<b>{{arr.cost}}</b></span>
+                    </p>
+                </div>
+            </ion-item>
+        </ion-list>
+        <div class="paymess">
+            <h3>送货信息</h3>
+            <p>收货人：QI</p>
+            <p>手机：10000000000</p>
+            <p class="address">地址：广州市天河区大观南路长盛商务大厦D栋</p>
+            <p class="opea">[修改]</p>
+            <p>邮寄方式：顺丰快递</p>
+            <p>邮费：免邮</p>
+        </div>
+        <div class="paymess">
+            <h3>发票信息</h3>
+            <p>发票类型：普通发票</p>
+            <p>发票内容：明细</p>
+            <p class="invoice">
+                <span>发票抬头：</span>
+                <span class="person">
+              <label>个人</label><input type="text" placeholder="请填写真实姓名"> 
+            </span>
+                <span class="company">
+              <label>公司</label><input type="text" placeholder="请填写公司全名"> 
+            </span>
+            </p>
+        </div>
+        <div class="paymess">
+            <h3>
+          <label>支付方式</label>
+          <img on-tap="choose(0)" src="img/pay1.jpg">
+          <i on-tap="choose(0)" class="iclick hover"></i>
+          <img on-tap="choose(1)" src="img/pay2.jpg">
+          <i on-tap="choose(1)" class="iclick"></i>
+        </h3>
+        </div>
+    </ion-content>
+    <script id="popover.html" type="text/ng-template">
+        <ion-modal-view>
+            <ion-header-bar align-title="center" class="bar-positive">
+                <h1 class="title">修改页面</h1>
+                <div class="buttons">
+                    <button class="button button-icon button-positive ion-close-circled" on-tap="closemodeal()"></button>
+                </div>
+            </ion-header-bar>
+            <ion-content>
+                <label class="item-input">
+                    <span class="input-label">数量</span>
+                    <input type="text" ng-model="newcount" maxlength="2">
+                </label>
+                <button class="button button-full button-positive" on-tap="modalhide(newcount)">修改</button>
+            </ion-content>
+        </ion-modal-view>
+    </script>
+    <ion-footer-bar class="procart_bot">
+        <span>总价：<b>{{getData.allsum | myfilter }}</b></span>
+        <a class="check" ng-click='paysuccess()'>提交</a>
+    </ion-footer-bar>
+</ion-view>

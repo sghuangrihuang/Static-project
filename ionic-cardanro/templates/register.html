@@ -1,0 +1,25 @@
+<ion-view class="register" view-title="注册">
+    <form>
+        <h2>欢迎注册</h2>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" ng-model="loginData.username" placeholder="会员名">
+            </label>
+            <label class="item item-input">
+                <input type="text" ng-model="loginData.number" placeholder="手机号">
+            </label>
+            <label class="item item-input">
+                <input type="password" ng-model="loginData.password" placeholder="密码">
+            </label>
+            <label class="item item-input">
+                <input type="text" class="yzm" ng-model="loginData.yzm" placeholder="验证码">
+                <img src="./img/yzm.jpg" alt="" />
+            </label>
+            <span>
+          <a  class="label" href="#/login">已有账号，前往登录</a>
+        </span>
+            <a type="submit" class="btn" href="#/login">注册</a>
+        </div>
+    </form>
+    </ion-content>
+</ion-view>

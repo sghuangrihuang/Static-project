@@ -1,0 +1,13 @@
+<ion-view view-title="引导页">
+    <ion-content class="guide">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide ng-repeat="v in guidelist">
+                <div>
+                    <a ng-href="{{v.href}}" ng-style="{{hei}}">
+                        <img ng-src="{{v.src}}" ng-style="{{hei}}">
+                    </a>
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>

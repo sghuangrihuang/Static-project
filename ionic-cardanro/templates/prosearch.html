@@ -1,0 +1,46 @@
+<ion-view view-title="搜索" class="prosearch">
+    <ion-header-bar align-title="center" class="bar-clear item-input-inset ">
+        <label class="item-input-wrapper">
+            <input type="search" ng-model="search" id="search" ng-change="prodata(search)" placeholder="请输入关键字/产品名称" autofocus="true" />
+        </label>
+        <div class="buttons">
+            <button class="button button-icon button-dark ion-ios-search-strong"></button>
+        </div>
+    </ion-header-bar>
+    <ion-content class="topcontent">
+        <ion-list>
+            <h3>热点搜索</h3>
+            <ion-item ng-repeat="arr in searchlist">
+                <a href="#/prodetail">
+                    <img ng-src="{{arr.src}}" alt="">
+                    <span ng-bind='arr.text'></span>
+                </a>
+            </ion-item>
+        </ion-list>
+        <ion-list>
+            <h3>历史搜索</h3>
+            <ion-item ng-repeat="arr in searchlist">
+                <a href="#/prodetail">
+                    <img ng-src="{{arr.src}}" alt="">
+                    <span ng-bind='arr.text'></span>
+                </a>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <ion-footer-bar class="copyfoot">
+        <div class="tabs tabs-icon-top">
+            <a href="#/app/homepage" class="tab-item">
+                <i class="icon ion-android-home"></i> 首页
+            </a>
+            <a href="#/app/prosort" class="tab-item">
+                <i class="icon ion-android-apps"></i> 分类
+            </a>
+            <a href="#/procart" class="tab-item">
+                <i class="icon ion-android-cart"></i> 购物车
+            </a>
+            <a href="#/app/userlists" class="tab-item">
+                <i class="icon ion-android-person"></i> 我的
+            </a>
+        </div>
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,93 @@
+{
+    "title": "jsondata",
+    "homelists": [
+        { "src": "./img/ico5.jpg", "text": "官网独家", "href": "#/prolist/0" },
+        { "src": "./img/ico6.jpg", "text": "系列产品", "href": "#/app/prosort" },
+        { "src": "./img/ico7.jpg", "text": "近期活动", "href": "#/prolist/0" },
+        { "src": "./img/ico8.jpg", "text": "人气热卖", "href": "#/prolist/0" },
+        { "src": "./img/ico9.png", "text": "　香雾　", "href": "#/prolist/0" },
+        { "src": "./img/ico10.jpg", "text": "面部护理", "href": "#/prolist/0" },
+        { "src": "./img/ico11.jpg", "text": "身体护理", "href": "#/prolist/0" },
+        { "src": "./img/ico12.jpg", "text": "发部护理", "href": "#/prolist/0" }
+    ],
+    "homelists1": [
+        { "id": "1", "src": "./img/pic1.jpg", "text": "美肌无暇保湿霜50ML", "price": "¥340" },
+        { "id": "2", "src": "./img/pic2.jpg", "text": "美肌保湿喷雾100ML", "price": "¥160" },
+        { "id": "3", "src": "./img/pic3.jpg", "text": "美肌无暇精华30ML", "price": "¥400" },
+        { "id": "4", "src": "./img/pic4.jpg", "text": "美肌无暇修颜乳30ML", "price": "¥340" }
+    ],
+    "homelists2": [
+        { "id": "5", "src": "./img/pic5.jpg", "text": "芍药淡香水75ML", "price": "¥430" },
+        { "id": "6", "src": "./img/pic6.jpg", "text": "芍药润肤霜200ML", "price": "¥380" },
+        { "id": "7", "src": "./img/pic7.jpg", "text": "芍药润唇膏 玫瑰色4g", "price": "¥160" },
+        { "id": "8", "src": "./img/pic8.jpg", "text": "芍药花香润手霜75ML", "price": "¥170" },
+        { "id": "9", "src": "./img/pic9.jpg", "text": "芍药沐浴啫喱250ML", "price": "¥180" },
+        { "id": "10", "src": "./img/pic10.jpg", "text": "芍药润肤露250ML", "price": "¥260" },
+        { "id": "11", "src": "./img/pic11.jpg", "text": "芍药滚珠香水10ML", "price": "¥220" },
+        { "id": "12", "src": "./img/pic12.jpg", "text": "芍药花香皂75g", "price": "¥60" }
+    ],
+    "homelists3": [
+        { "id": "13", "src": "./img/pic13.jpg", "text": "焕亮防晒乳30ML", "price": "¥380" },
+        { "id": "14", "src": "./img/pic14.jpg", "text": "蜡菊活颜BB霜40ML", "price": "¥390" },
+        { "id": "15", "src": "./img/pic13.jpg", "text": "焕亮防晒乳30ML", "price": "¥380" },
+        { "id": "16", "src": "./img/pic14.jpg", "text": "蜡菊活颜BB霜40ML", "price": "¥390" }
+    ],
+    "userlists": [
+        { "title": "个人资料", "id": 1, "lefticon": "icon ion-ios-person-outline  iconColor", "righticon": "icon ion-ios-arrow-right iconleftColor" },
+        { "title": "收货地址", "id": 2, "lefticon": "icon ion-ios-location-outline  iconColor", "righticon": "icon ion-ios-arrow-right iconleftColor" },
+        { "title": "购买记录", "id": 3, "lefticon": "icon ion-ios-paper-outline  iconColor", "righticon": "icon ion-ios-arrow-right iconleftColor" },
+        { "title": "　评论　", "id": 4, "lefticon": "icon ion-ios-chatboxes-outline  iconColor", "righticon": "icon ion-ios-arrow-right iconleftColor" },
+        { "title": "　收藏　", "id": 5, "lefticon": "icon ion-ios-star-outline  iconColor", "righticon": "icon ion-ios-arrow-right iconleftColor" }
+    ],
+    "searchlist": [
+        { "src": "img/pic15.jpg", "text": "美肌无暇保湿霜" },
+        { "src": "img/pic16.jpg", "text": "美肌无暇保湿霜" },
+        { "src": "img/pic17.jpg", "text": "美肌无暇保湿霜" },
+        { "src": "img/pic15.jpg", "text": "美肌有暇保湿霜" },
+        { "src": "img/pic16.jpg", "text": "美肌有暇保湿霜" },
+        { "src": "img/pic17.jpg", "text": "美肌有暇保湿霜" }
+    ],
+    "cartlist": [
+        { "src": "img/pic18.jpg", "text": "(官方正品，专营店直销)欧舒丹美肌无暇保湿霜50ML", "count": 1, "discount": "无", "cost": "", "price": "340" },
+        { "src": "img/pic18.jpg", "text": "(官方正品，专营店直销)欧舒丹美肌无暇保湿霜50ML", "count": 1, "discount": "8折", "cost": "340", "price": "272" },
+        { "src": "img/pic18.jpg", "text": "(官方正品，专营店直销)欧舒丹美肌无暇保湿霜50ML", "count": 1, "discount": "无", "cost": "", "price": "340" }
+    ],
+    "sortlist": [
+        { "text": "最新推荐", "id": 1 }, { "text": "系列产品", "id": 2 }, { "text": "面部护理", "id": 3 }, { "text": "香氛", "id": 4 }, { "text": "身体护理", "id": 5 }, { "text": "发部护理", "id": 6 }, { "text": "男士推荐", "id": 7 }
+    ],
+    "sortlist1": [
+        { "text": "洁面", "id": 1 }, { "text": "爽肤水、化妆水", "id": 2 }, { "text": "精华液", "id": 3 }, { "text": "面霜、保湿霜", "id": 4 }, { "text": "眼唇护理", "id": 5 }, { "text": "去角质、面膜", "id": 6 }, { "text": "防晒护理", "id": 7 }
+    ],
+    "sortlist2": [
+        { "text": "全面抗老", "id": 1 }, { "text": "滋养防护", "id": 2 }, { "text": "锁水保湿", "id": 3 }, { "text": "纯净控油", "id": 4 }, { "text": "抗皱紧实", "id": 5 }, { "text": "男士护肤", "id": 6 }, { "text": "焕白净透", "id": 7 }
+    ],
+    "detalist": [
+        { "text": "美肌无暇保湿霜", "price": "¥340" },
+        { "text": "美肌无暇保湿霜50ML", "price": "¥340" },
+        { "text": "美肌保湿喷雾100ML", "price": "¥160" },
+        { "text": "美肌无暇精华30ML", "price": "¥400" },
+        { "text": "美肌无暇修颜乳30ML", "price": "¥340" },
+        { "text": "芍药淡香水75ML", "price": "¥430" },
+        { "text": "芍药润肤霜200ML", "price": "¥380" },
+        { "text": "芍药润唇膏 玫瑰色4g", "price": "¥160" },
+        { "text": "芍药花香润手霜75ML", "price": "¥170" },
+        { "text": "芍药沐浴啫喱250ML", "price": "¥180" },
+        { "text": "芍药润肤露250ML", "price": "¥260" },
+        { "text": "芍药滚珠香水10ML", "price": "¥220" },
+        { "text": "芍药花香皂75g", "price": "¥60" },
+        { "text": "焕亮防晒乳30ML", "price": "¥380" },
+        { "text": "蜡菊活颜BB霜40ML", "price": "¥390" },
+        { "text": "焕亮防晒乳30ML", "price": "¥380" },
+        { "text": "蜡菊活颜BB霜40ML", "price": "¥390" }
+    ],
+    "listlist": [
+        { "src": "./img/pic19.jpg", "text": "天使草润透洁面啫喱200ML", "price": 220, "star": "★★★★☆", "use": "(46使用心得)" },
+        { "src": "./img/pic20.jpg", "text": "焕亮洁面乳200ML", "price": 290, "star": "★★★★★", "use": "(13使用心得)" },
+        { "src": "./img/pic21.jpg", "text": "蜡菊活颜卸妆油200ML", "price": 240, "star": "★★★★☆", "use": "(11使用心得)" },
+        { "src": "./img/pic22.jpg", "text": "蜡菊活颜绵密洁面泡泡150ML", "price": 245, "star": "★★★★☆", "use": "(10使用心得)" }
+    ],
+    "guidelist": [
+        { "src": "./img/guide_2.jpg", "href": "./index.html#/app/homepage" },
+        { "src": "./img/guide_1.jpg", "href": "./index.html#/app/homepage" }
+    ]
+}

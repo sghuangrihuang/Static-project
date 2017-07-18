@@ -1,0 +1,15 @@
+<ion-view view-title="用户中心">
+    <ion-content class="bottomcontent">
+        <ion-list>
+            <ion-item>
+                <a href="#/login" class="userpic"><img src="img/person.png"></a>
+            </ion-item>
+        </ion-list>
+        <ion-list class="icontext">
+            <ion-item ng-repeat="userlist in userlists" href="#/app/userlists/{{userlist.id}}" class="item item-icon-left item-icon-right ">
+                <i class="{{userlist.lefticon}}"></i>{{userlist.title}}
+                <i class="{{userlist.righticon}}"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
