@@ -1,0 +1,125 @@
+.header{
+	height: auto;
+}
+.content .container{
+	width: 100%;
+	position: relative;
+	height: 705px;
+	overflow: hidden;
+	background: url("../images/bg1.jpg") no-repeat center;
+}
+.content .container .register{
+	width: 845px;
+	height: 448px;
+	position: absolute;
+	left: 50%;
+	margin-left: -422px;
+	top: 50%;
+	margin-top: -224px;
+	background: rgba(0,0,0,0.3);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+}
+.content .container .register form{
+	padding: 55px 60px 40px 65px;
+	overflow: hidden;
+}
+.content .container .register .reg_left{
+	float: left;
+	width: 338px;
+}
+.content .container .register .reg_left input{
+	width: 310px;
+	padding:0 14px;
+	font-size: 14px;
+	color: #999999;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 22px;
+	background: #ffffff;
+}
+.content .container .register .reg_left .province,.content .container .register .reg_left .city{
+	width: 148px;
+	padding-right: 0;
+	padding-left: 14px;
+	cursor: pointer;
+	background:#ffffff url("../images/select.jpg") no-repeat right center;
+	float: left;
+	margin-bottom: 0;
+}
+.content .container .register .reg_left .city{
+	float: right;
+}
+.content .container .register .reg_right{
+	float: right;
+	width: 349px;
+}
+.content .container .register .reg_right > h2{
+	font-size: 48px;
+	color: #00cc99;
+	font-weight: normal;
+}
+.content .container .register .reg_right p{
+	display: block;
+	overflow: hidden;
+}
+.content .container .register .reg_right  strong{
+	font-size: 24px;
+	margin-top: 49px;
+	font-weight: normal;
+	display: inline-block;
+	color: #ffffff;
+}
+.content .container .register .reg_right .person,.content .container .register .reg_right .code,.content .container .register .reg_right .agree{
+	margin-top: 18px;
+}
+.content .container .register .reg_right span{
+	font-size: 14px;
+	display: inline-block;
+	line-height: 16px;
+	margin:0px 8px;
+	float: left;
+	color: #ffffff;
+}
+.content .container .register .reg_right b{
+	display: inline-block;
+	width: 16px;
+	cursor: pointer;
+	height: 16px;
+	float: left;
+	background:#00cc99;
+}
+.content .container .register .reg_right .hover{
+	background: url("../images/input_check.jpg") no-repeat center;
+}
+.content .container .register .reg_right input[type='text']{
+	width: 98px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #999999;
+	background: #ffffff;
+	font-size: 14px;
+	padding:0 10px;
+}
+.content .container .register .reg_right .code a{
+	display: inline-block;
+	float: left;
+	margin-top:12px; 
+	margin-left: 10px;
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.content .container .register .reg_right .btn{
+	margin-top: 40px;
+}
+.content .container .register .reg_right .btn a{
+	display: block;
+	width: 350px;
+	height: 42px;
+	line-height: 42px;
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	background: #00cc99;
+}

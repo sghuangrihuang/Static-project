@@ -1,0 +1,242 @@
+.header .nav_left{
+	height: auto;
+}
+.header .foot .nav_left ol{
+	display: none;
+}
+.content{
+	background: #f0f0f0;
+}
+.content .container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content .head{
+	padding: 12px 0 8px;
+	overflow: hidden;
+}
+.content .head h3{
+	font-weight: normal;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666666;
+}
+.content  .head h3 p{
+	float: left;
+	display: inline-block;
+}
+.content  .head h3 a{
+	float: left;
+	display: inline-block;
+	color: #666666;
+	margin:  0 4px;
+}
+.content  .foot .list{
+	width: 268px;
+	float: left;
+}
+.content  .foot .list .title{
+	background: #006b47;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.content  .foot .list .title h2{
+	height: 72px;
+	line-height: 72px;
+	font-size: 24px;
+	color: #ffffff;
+}
+.content  .foot .list .title  a{
+	display: inline-block;
+	float: left;
+	padding-bottom: 25px;
+	padding-right: 10px;
+}
+.content  .foot .list .title span{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 16px;
+}
+.content  .foot .list .title p{
+	margin-top: 55px;
+}
+.content  .foot .list ul li{
+	background: #009966;
+}
+.content  .foot .list ul li:hover,.content  .foot .list ul li.list_hover{
+	background: #00cc99;
+}
+.content  .foot .list ul li a{
+	display: block;
+	font-size: 16px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 30px;
+	height: 72px;
+	line-height: 72px;
+}
+.content  .foot .list_right{
+	float: right;
+	width: 920px;
+	overflow: hidden;
+}
+.content  .foot .list_right h2{
+	margin: 0 15px;
+	font-size: 24px;
+	color: #009966;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #009966;
+}
+.content  .foot .list_right .order_head{
+	overflow: hidden;
+	background: #ffffff;
+	padding: 5px 0;
+}
+.content  .foot .list_right .order_head ul {
+	margin: 0 15px;
+}
+.content  .foot .list_right .order_head ul  li{
+	font-size: 16px;
+	padding: 5px 0;
+	color: #333333;
+}
+.content  .foot .list_right .order_bottom{
+	overflow: hidden;
+	background: #ffffff;
+	padding: 5px 0;
+	margin: 27px 0 67px;
+}
+.content  .foot .list_right .order_bottom .mess{
+	overflow: hidden;
+}
+.content  .foot .list_right .order_bottom .mess ul{
+	overflow: hidden;
+	width: 648px;
+	margin: 20px auto;
+}
+.content  .foot .list_right .order_bottom .mess ul li{
+	float: left;
+	width: 72px;
+	cursor: pointer;
+}
+.content  .foot .list_right .order_bottom .mess ul li .text{
+	width: 72px;
+	font-size: 16px;
+	color: #333333;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.content  .foot .list_right .order_bottom .mess ul li .pic{
+	width: 72px;
+	height: 72px;
+	display: table;
+	text-align: center;
+}
+.content  .foot .list_right .order_bottom .mess ul li .check{
+	width: 72px;
+	height: 60px;
+	display: table;
+	text-align: center;
+}
+.content  .foot .list_right .order_bottom .mess ul li .pic p,.content  .foot .list_right .order_bottom .mess ul li .check p{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.content  .foot .list_right .order_bottom .mess ul li  img{
+	margin: 0 auto;
+	display: block;
+}
+.content  .foot .list_right .order_bottom .time{
+	margin: 0 15px;
+	border-top: 1px solid #00cc99;
+	border-bottom: 1px solid #00cc99;
+	overflow: hidden;
+}
+.content  .foot .list_right .order_bottom .time span{
+	display: inline-block;
+	float: left;
+	margin-left: 15px;
+	height: 49px;
+	line-height: 49px;
+	font-size: 12px;
+	color: #333333;
+}
+.content  .foot .list_right .table_head{
+	overflow: hidden;
+	background: #ffffff;
+}
+.content  .foot .list_right .table_head div p{
+	float: left;
+	display: block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	color: #333333;
+	font-size: 14px;
+	text-align: left;
+}
+.content  .foot .list_right .table_head .goods{
+	padding-left: 120px;
+	width: 230px;
+}
+.content  .foot .list_right .table_head  .price{
+	width: 130px;
+}
+.content  .foot .list_right .table_head  .sum{
+	width: 100px;
+}
+.content  .foot .list_right .table_head  .operate{
+	width: 100px;
+}
+.content  .foot .list_right .table_body  div{
+	overflow: hidden;
+	padding: 8px 0;
+}
+.content  .foot .list_right .table_body  div p{
+	display: block;
+	float: left;
+	width: 120px;
+	color: #333333;
+	font-family: "宋体";
+	font-size: 14px;
+	text-align: left;
+}
+.content  .foot .list_right .table_body .goods{
+	padding-left: 10px;
+	width: 340px;	
+}
+.content  .foot .list_right .table_body .goods a{
+	display: block;
+	float: left;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #333333;
+	font-family: "宋体";
+}
+.content  .foot .list_right .table_body .goods a b{
+	width: 41px;
+	display: inline-block;
+	color: #ffffff;
+	height: 17px;
+	line-height: 17px;
+	text-align: center;
+	font-size: 12px;
+	background: #009966;
+	border-radius: 10px;
+	font-family: "宋体";
+	font-weight: normal;
+}
+.content  .foot .list_right .table_body  .price{
+	width: 130px;
+}
+.content  .foot .list_right .table_body  .pay{
+	color: #009966;
+}
+.content  .foot .list_right .table_body  .sum{
+	width: 100px;
+}
+.content  .foot .list_right .table_body  .operate{
+	width: 100px;
+}

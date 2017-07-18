@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/shop_cart.css">
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png"></a>
+			</div>
+			<div class="title">
+				<p><a>我的购物车</a></p>
+				<p><a>填写核对订单信息</a></p>
+				<p><a>成功提交订单</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="shopcar">
+			<h3><p>我的购物车</p></h3>
+			<div class="shop_head">
+				<div>
+					<p class="allchecked" onclick="checkboxSelect()"><i id="allchecked1" class="hover"></i><span>全选</span></p>
+					<p class="goods">商品</p>
+					<p>规格</p>
+					<p>单价</p>
+					<p>数量</p>
+					<p>小计</p>
+					<p>操作</p>
+				</div>
+			</div>
+			<div class="shop_body" id="shop_body">
+				<div id="achecked" class="top">
+					<p><i onclick="checkboxSelect()" class="hover"></i><span>私信面膜</span></p>
+				</div>
+				<!-- <div class="bot">
+					<p><i></i><a href="pro_detail.html"><img src="images/pic_11.jpg"></a></p>
+					<p class="mess"><b>套装</b><a href="pro_detail.html">雅丽洁私信面膜贴正品 12片</a></p>
+					<p>¥39.90</p>
+					<p class="count">
+						<input type="button" value="-"  />
+						<input type="text" value="2">
+						<input type="button" value="+">
+					</p>
+					<p class="sum">¥79.80</p>
+					<p class="del">删除</p>
+				</div>
+				<div class="bot">
+					<p><i></i><a href="pro_detail.html"><img src="images/pic_12.jpg"></a></p>
+					<p class="mess"><b>套装</b><a href="pro_detail.html">雅丽洁萌萌哒12片面膜</a></p>
+					<p>¥50.00</p>
+					<p class="count">
+						<input type="button" value="-"  />
+						<input type="text" value="2">
+						<input type="button" value="+">
+					</p>
+					<p class="sum">¥100.00</p>
+					<p class="del">删除</p>
+				</div> -->
+			</div>
+			<!-- <div class="shop_body">
+				<div class="top">
+					<li><p><i></i><span>8杯水系列</span></p></li>
+				</div>
+				<div class="bot">
+					<p><i></i><a href="pro_detail.html"><img src="images/pic_15.jpg"></a></p>
+					<p class="mess"><b>套装</b><a href="pro_detail.html">雅丽洁8杯水护肤套装</a>
+					</p>
+					<p>¥99.00</p>
+					<p class="count">
+						<input type="button" value="-"  />
+						<input type="text" value="1">
+						<input type="button" value="+">
+					</p>
+					<p class="sum">¥99.00</p>
+					<p class="del">删除</p>
+				</div>
+				<div class="bot">
+					<p><i></i><a href="pro_detail.html"><img src="images/pic_17.jpg"></a></p>
+					<p class="mess"><b class="clear"></b><a href="pro_detail.html">雅丽洁男士动力滋润保湿霜</a></p>
+					<p>¥67.00</p>
+					<p class="count">
+						<input type="button" value="-"  />
+						<input type="text" value="1">
+						<input type="button" value="+">
+					</p>
+					<p class="sum">¥67.00</p>
+					<p class="del">删除</p>
+				</div>
+			</div> -->
+			<div class="shop_pay">
+				<div class="left">
+					<p onclick="checkboxSelect()"><i id="allchecked2" class="hover"></i><span>全选</span></p>
+					<a onclick="delProductList()">删除选择商品</a>
+					<a >清除无效商品</a>
+					<a >移入收藏夹</a>
+				</div>
+				<div class="right">
+					<p>已选择商品 <b id="totalNumber">1</b> 件 合计（不含运费）：</p>
+					<span id="totalAmount">￥179.80</span>
+					<a href="confirm_order.html">去结算</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="head">
+			<div class="nav">
+				<ul >
+					<li>
+						<div class="pic">
+							<img src="images/ico1.png">
+						</div>
+						<div class="text">
+							<p>官方质量保证</p>
+						</div>
+					</li>
+					<li>
+						<div class="pic">
+							<img src="images/ico2.png">
+						</div>
+						<div class="text">
+							<p>7天无理由退货</p>
+						</div>
+					</li>
+					<li>
+						<div class="pic">
+							<img src="images/ico3.png">
+						</div>
+						<div class="text">
+							<p>精品专利包装</p>
+						</div>
+					</li>
+					<li>
+						<div class="pic">
+							<img src="images/ico4.png">
+						</div>
+						<div class="text">
+							<p>1对1客服</p>
+						</div>
+					</li>
+					<li>
+						<div class="pic">
+							<img src="images/ico5.png">
+						</div>
+						<div class="text">
+							<p>24小时发货</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="middle">
+			<<div class="nav">
+				<ul>
+					<li>
+						<dl>
+							<a href="javascript:void(0)">购物指南</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="pay.html">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="javascript:void(0)">支付方式</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="pay.html">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="order_detail.html">订单信息</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="javascript:void(0)">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="javascript:void(0)">商家服务</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="pay.html">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="javascript:void(0)">品牌保证</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="pay.html">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<a href="javascript:void(0)">售后服务</a>
+							<dd><a href="javascript:void(0)">帮助中心</a></dd>
+							<dd><a href="pay.html">支付方式</a></dd>
+							<dd><a href="javascript:void(0)">配送方式</a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="foot">
+			<div>
+				<p>4000-410-999(免费热线)</p>
+				<ul>
+					<li><span>扫一扫，关注我们！</span></li>
+					<li><img src="images/qr1.png"></li>
+					<li><img src="images/qr1.png"></li>
+				</ul>
+			</div>
+			<b>广东雅丽洁精细化工有限公司 COPYRIGHT©2014 yalget.com</b>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/head.js"></script>
+<script type="text/javascript" src="js/ShopCar.js" ></script>
+<script type="text/javascript" src="js/Shopcart.js"></script>
+</html>

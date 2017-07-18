@@ -1,0 +1,326 @@
+.header{
+	height: auto;
+}
+.header .head{
+	width: 1000px;
+}
+.header .title{
+	margin-top: 50px;
+	float: right;
+}
+.header .title p{
+	width: 180px;
+	float: left;
+}
+.header .title a{
+	cursor: pointer;
+	width: 168px;
+	height: 36px;
+	float: left;
+	padding-left: 30px;
+	line-height: 36px;
+	position: relative;
+	display: block;
+	font-size: 14px;
+	color: #000000;
+}
+.content{
+	background: #f0f0f0;
+}
+.content .shopcar{
+	overflow: hidden;
+	width: 1000px;
+	background: #ffffff;
+	margin:20px auto;
+	position: relative;
+	z-index: 1;
+}
+.content .shopcar h3{
+	position: relative;
+	height: 50px;
+	margin:0px 10px;
+	border-bottom: 2px solid #00cc99;
+}
+.content .shopcar h3 p{
+	font-size: 24px;
+	position: absolute;
+	height: 50px;
+	width: 129px;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	border-bottom: 2px solid #009966;
+	display: inline-block;
+	line-height: 50px;
+	color: #333333;
+}
+.content .shopcar .shop_head {
+	overflow: hidden;
+	margin:0 10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #00cc99; 
+}
+.content .shopcar .shop_head div{
+	overflow: hidden;
+	margin: 0 20px;
+}
+.content .shopcar .shop_head div p{
+	width: 115px;
+	color: #333333;
+	float: left;
+	font-size: 12px;
+	font-family: "宋体";
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	background: url("../images/line1.png") no-repeat left center;
+}
+.content .shopcar .shop_head div p:first-child{
+	background: none;
+}
+.content .shopcar .shop_head div p:first-child i{
+	width: 17px;
+	height: 17px;
+	margin-top: 14px;
+	margin-right: 5px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+	font-style: none;
+}
+.content .shopcar .shop_head div p:first-child span{
+	display: block;
+	float: left;
+}
+.content .shopcar .shop_head div p:first-child i.hover{
+	background: url("../images/ico_08.png") no-repeat center;
+	width: 19px;
+	height: 19px;
+	border: none;
+}
+.content .shopcar .shop_head div .goods{
+	width: 250px;
+	background: none;
+}
+.content .shopcar .shop_body{
+	overflow: hidden;
+	margin:0 10px;
+}
+.content .shopcar .shop_body .top{
+	overflow: hidden;
+	margin: 0 20px;
+}
+.content .shopcar .shop_body .top p{
+	height: 58px;
+	line-height: 58px;
+	overflow: hidden;
+	color: #333333;
+	font-size: 18px;
+}
+.content .shopcar .shop_body .top p i{
+	width: 17px;
+	height: 17px;
+	margin-top: 19px;
+	margin-right: 5px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+}
+.content .shopcar .shop_body .top p span{
+	display: block;
+	float: left;
+}
+.content .shopcar .shop_body .top p i.hover{
+	background: url("../images/ico_08.png") no-repeat center;
+	width: 19px;
+	height: 19px;
+	border: none;
+}
+.content .shopcar .shop_body .bot{
+	overflow: hidden;
+	padding: 10px 20px;
+}
+.content .shopcar .shop_body .bot p{
+	font-size: 14px;
+	float: left;
+	color: #333333;
+	text-align: center;
+	width: 115px;
+	font-family: "宋体";
+}
+.content .shopcar .shop_body .bot p:first-child{
+	width: 120px;
+}
+.content .shopcar .shop_body .bot p:first-child i{
+	width: 17px;
+	height: 17px;
+	margin-top: 28px;
+	margin-right: 23px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+}
+.content .shopcar .shop_body .bot p:first-child  i.hover{
+	background: url("../images/ico_08.png") no-repeat center;
+	width: 19px;
+	height: 19px;
+	border: none;
+}
+.content .shopcar .shop_body .bot p:first-child a{
+	display: block;
+	float: left;
+}
+.content .shopcar .shop_body .bot p:first-child img{
+	width: 76px;
+	height: 76px;
+	border:1px solid #cccccc;
+}
+.content .shopcar .shop_body .bot .mess{
+	width: 345px;
+	margin-left: 15px;
+}
+.content .shopcar .shop_body .bot .mess b{
+	float: left;
+	display: block;
+	background: #009966;
+	border-radius: 10px;
+	height: 17px;
+	width: 41px;
+	line-height: 17px;
+	text-align: center;
+	margin-right: 5px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.content .shopcar .shop_body .bot .mess a{
+	font-size: 12px;
+	color: #333333;
+	float: left;
+	display: block;
+	font-family: "宋体";
+}
+.content .shopcar .shop_body .bot .count{
+	overflow: hidden;
+	width:77px;
+	margin:0 19px;
+}
+.content .shopcar .shop_body .bot .count input[type='button']{
+	width: 21px;
+	height: 21px;
+	cursor: pointer;
+	box-sizing: content-box;
+	float: left;
+	border: 1px solid #cccccc;
+	color: #333333;
+	font-size: 21px;
+}
+.content .shopcar .shop_body .bot .count input[type='text']{
+	width: 31px;
+	text-align: center;
+	height: 21px;
+	float: left;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.content .shopcar .shop_body .bot .sum{
+	color: #009966;
+}
+.content .shopcar .shop_body .bot  .del{
+	cursor: pointer;
+}
+.content .shopcar .shop_body .bot .mess .clear{
+	background: none;
+}
+.content .shopcar .shop_pay{
+	overflow: hidden;
+	border:1px solid #009966;
+	height: 58px;
+	line-height: 58px;
+	margin:0 10px 40px;
+}
+.content .shopcar .shop_pay .left{
+	float: left;
+	overflow: hidden;
+}
+.content .shopcar .shop_pay .left p{
+	display: inline-block;
+	float: left;
+	margin-left: 19px;
+}
+.content .shopcar .shop_pay .left p i{
+	width: 17px;
+	height: 17px;
+	margin-top: 19px;
+	margin-right: 3px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	border-radius: 50%;
+	border: 1px solid #d0d0d0;
+	background: #ffffff;
+}
+.content .shopcar .shop_pay .left p i.hover{
+	background: url("../images/ico_08.png") no-repeat center;
+	width: 19px;
+	height: 19px;
+	border: none;
+}
+.content .shopcar .shop_pay .left p  span{
+	float: left;
+	display: inline-block;
+	font-size: 20px;
+	color: #333333;
+}
+.content .shopcar .shop_pay .left a{
+	float: left;
+	display: inline-block;
+	margin:0 5px;
+	cursor: pointer;
+	font-size: 12px;
+	color: #333333;
+	font-family: "宋体";
+}
+.content .shopcar .shop_pay .right{
+	float: right;
+	overflow: hidden;
+}
+.content .shopcar .shop_pay .right p{
+	font-size: 12px;
+	color: #333333;
+	font-family: "宋体";
+	float: left;
+	margin-right: 20px;
+}
+.content .shopcar .shop_pay .right p b{
+	font-weight: normal;
+	color: #009966;
+}
+.content .shopcar .shop_pay .right span{
+	float: left;
+	color: #009966;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.content .shopcar .shop_pay .right a{
+	display: block;
+	width: 100px;
+	height: 58px;
+	line-height: 58px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: "黑体";
+	background: #009966;
+	float: left;
+}

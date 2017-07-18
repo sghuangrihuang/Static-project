@@ -1,0 +1,61 @@
+.header{
+	height: auto;
+}
+.content .container{
+	width: 100%;
+	position: relative;
+	height: 705px;
+	overflow: hidden;
+	background: url("../images/bg1.jpg") no-repeat center;
+}
+.content .container .login{
+	width: 845px;
+	height: 267px;
+	position: absolute;
+	left: 50%;
+	margin-left: -422px;
+	top: 50%;
+	margin-top: -134px;
+	background: rgba(0,0,0,0.3);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+}
+.content .container .login form{
+	display: block;
+	padding: 40px 60px 40px 50px;
+}
+.content .container .login h2{
+	font-size: 30px;
+	color: #00cc99;
+}
+.content .container .login input{
+	width: 208px;
+	margin-top: 50px;
+	height: 40px;
+	margin-right: 14px;
+	background: #ffffff;
+	padding: 0 10px;
+	font-size: 14px;
+	float: left;
+	color: #999999;
+	line-height: 40px;
+}
+.content .container .login input[type="submit"]{
+	padding: 0px;
+	font-size: 18px;
+	color: #ffffff;
+	background: #00cc99;
+	width: 196px;
+}
+.content .container .login a{
+	display: inline-block;
+	font-size: 14px;
+	color: #ffffff;
+	float: left;
+	margin-top: 14px;
+}
+.content .container .login .password{
+	margin-left: 428px;
+}
+.content .container .login .register{
+	float: right;
+}
