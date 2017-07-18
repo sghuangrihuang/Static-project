@@ -1,0 +1,144 @@
+.pagetitle{
+	background: url(../images/title_orderdetail.png) no-repeat center;
+}
+.orderdetail{
+	width:750px;
+	margin:  0 auto 200px;
+}
+.orderdetail .row{
+	margin: 0;
+}
+.orderdetail .top h3{
+	font-size: 14px;
+	color: #f5f1f0;
+	line-height: 40px;
+	height: 40px;
+}
+.orderdetail .top>div{
+	padding: 15px 0;
+	border: 1px solid #7b7b7b;
+}
+.orderdetail .top span{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	color: #f5f1f0;
+	font-size: 14px;
+}
+.orderdetail .middle{
+	margin-bottom: 50px;
+}
+.orderdetail .middle p{
+	font-size: 14px;
+	color: #808080;
+	margin-top: 15px;
+}
+.orderdetail .thead{
+	border: 1px solid #7b7b7b;
+	padding: 4px 0;
+}
+.orderdetail .thead span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #fcf8f8;
+	height: 40px;
+	line-height: 40px;
+}
+.orderdetail .thead div:first-child span{
+	text-align:left;
+	padding-left: 100px;
+}
+.orderdetail .tbody ul{
+	border-bottom: 1px solid #737373;
+}
+.orderdetail .tbody .pic{
+	padding-right: 20px;
+}
+.orderdetail .tbody li{
+	overflow: hidden;
+	margin:  20px 0;
+	line-height: 105px;
+	height: 105px;
+}
+.orderdetail .tbody .pic a,.orderdetail .tbody .pic a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.orderdetail .tbody h3,.orderdetail .tbody h3 a{
+	display: inline-block;
+	font-size: 14px;
+	color: #808080;
+	cursor: pointer;
+}
+.orderdetail .tbody span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+}
+.orderdetail .tfail p{
+	overflow: hidden;
+	margin-top: 5px;
+}
+.orderdetail .tfail p span{
+	width: 166px;
+	display: block;
+	float: right;
+	font-size: 14px;
+	color: #808080;
+}
+.orderdetail .tfail p span i{
+	color: #FF0000;
+}
+.orderdetail .tfail p span b{
+	color: #FF0000;
+	font-size: 24px;
+}
+@media (max-width: 767px){
+	.orderdetail{
+		width: 100%;
+		margin-bottom: 100px;
+	}
+	.orderdetail .top span{
+		height: 28px;
+		line-height: 28px;
+	}
+	.orderdetail .tbody ul{
+		border-top: 1px solid #737373;
+	}
+	.orderdetail .tbody li{
+		height: auto;
+	}
+	.orderdetail .tbody .pic{
+		padding-right: 10px;
+	}
+	.orderdetail .tbody .col-xs-6 span{
+		text-align: left;
+		color: #ff0000;
+	}
+	.orderdetail .tbody .col-xs-6+.col-xs-6 span{
+		text-align: right;
+		color: #808080;
+	}
+	.orderdetail .tbody h3, .orderdetail .tbody h3 a{
+		line-height: 24px;
+		height: 24px;
+		font-size: 18px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.orderdetail .tbody .text >div{
+		height: 20px;
+		line-height: 20px;
+	}
+	.orderdetail .tbody .text >div+div{
+		margin-top: 5px;
+	}
+	.orderdetail .tfail p span{
+		float: left;
+	}
+}

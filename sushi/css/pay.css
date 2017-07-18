@@ -1,0 +1,121 @@
+.pagetitle{
+	background: url(../images/title_pay.png) no-repeat center;
+}
+.pay{
+	width: 750px;
+	margin:  0 auto 200px;
+}
+.pay .row{
+	margin: 0;
+}
+.pay  .thead p{
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	color: #fdfdfd;
+}
+.pay  .tbody{
+	margin-top: 10px;
+}
+.pay  .tbody p{
+	font-size: 14px;
+	color: #fdfdfd;
+	height: 54px;
+	line-height: 54px;
+}
+.pay  .tbody .paymethod p:first-child span{
+	border-top: 1px solid #808080;
+}
+.pay  .tbody .paymethod p span{
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	margin-right: 20px;
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 14px 0;	
+    border-bottom: 1px solid #808080;
+}
+.pay  .tbody .paymethod p span img{
+	float: left;
+}
+.pay  .tbody .paymethod p span b{
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+	color: #808080;
+}
+.pay  .tbody .paymethod p span em{
+	font-size: 12px;
+	font-style: normal;
+	padding: 0 5px;
+	color: #fdfdfd;
+	margin-left: 5px;
+	background: #ff0000;
+}
+.pay  .tbody .paymethod p span i{
+	width: 9px;
+	height: 9px;
+	border: 1px solid #808080;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+	top: 9px;
+	float: right;
+	display: block;
+}
+.pay  .tbody .paymess span{
+	display: block;
+	color: #808080;
+	font-size: 14px;
+	margin-top: 0px;
+}
+.pay  .tbody .paymess span+span{
+	margin-top: 5px;
+}
+.pay  .tbody .paymess span b{
+	color: #ff0000;
+	font-size: 24px;
+}
+.pay  .tbody .paymess span i{
+	text-decoration: line-through;
+}
+.pay  .tbody .paymess a{
+	display: block;
+	width: 120px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 5px;
+	background: #ff0000;
+}
+@media (max-width: 767px){
+	.pay{
+		width: 100%;
+	}
+	.pay .tbody .paymethod p span{
+		margin-right: 0;
+	}
+	.pay  .tbody .paymess span{
+		margin-top: 10px;
+	}
+	.pay .tbody .paymess a{
+		width: 80%;
+		height: 46px;
+		line-height: 46px;
+		font-size: 18px;
+		margin:20px  auto 0;
+	}
+	.pay .thead p,.pay .tbody p{
+		color: #808080;
+	}
+	.pay .tbody{
+		margin-top: 0;
+	}
+}

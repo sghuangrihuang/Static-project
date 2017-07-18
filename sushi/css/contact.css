@@ -1,0 +1,76 @@
+.pagetitle{
+	background: url(../images/title_contact.png) no-repeat center;
+}
+.contact{
+	width: 840px;
+	margin:  0 auto 200px;
+}
+.contact .row{
+	margin: 0;
+}
+.contact .text_left{
+	padding-right: 25px;
+}
+.contact .text_left p{
+	font-size: 14px;
+	color: #808080;
+	margin-bottom: 10px;
+}
+.contact .text_left input[type='text']{
+	padding:0 15px;
+	border: 1px solid #808080;
+	font-size: 14px;
+	color: #808080;
+	height: 34px;
+	width: 100%;
+	line-height: 34px;
+	margin-bottom: 15px;
+}
+.contact .text_left input[type='submit']{
+	width: 138px;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	margin:   0 auto;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	background: #ff0000;
+}
+.contact .text_left textarea{
+	font-size: 14px;
+	color: #808080;
+	margin-bottom: 20px;
+	border: 1px solid #808080;
+	width: 100%;
+	background: none;
+	padding: 5px 15px;
+}
+.contact .text_right{
+	padding-left: 25px;
+}
+.contact .text_right img{
+	display: block;
+	width: 100%;
+}
+@media (max-width: 767px ){
+	.contact{
+		width: 100%;
+	}
+	.contact .text_left{
+		padding-right: 0;
+		margin-bottom: 100px;
+	}
+	.contact .text_right{
+		padding-left: 0;
+	}
+	#dituContent{
+		width: 100%!important;
+		height: 300px!important;
+	}
+}
+@media (min-width: 768px ) and (max-width: 991px){
+	.contact{
+		width: 100%;
+	}
+}

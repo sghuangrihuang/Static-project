@@ -1,0 +1,276 @@
+.banner{
+	position: relative;
+}
+.banner .hd{
+	position: absolute;
+	bottom: 17px;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+}
+.banner .hd span{
+	margin:0 8px;
+	width: 12px;
+	height: 12px;
+}
+.banner .swiper-pagination-bullet{
+	background: #ffffff;
+}
+.banner .bd a,.banner .bd a img{
+	width: 100%;
+	cursor: pointer;
+	display: block;
+	height: auto;
+}
+.product{
+	background: url(../images/bg1.png) repeat-y center;
+}
+.title{
+	width: 100%;
+	height: 148px;
+	background: url(../images/title1.png) no-repeat center;
+}
+.product .row{
+	width: 961px;
+	margin: 0 auto;
+}
+.product .row>li{
+	padding: 0 16px;
+}
+.product .row>li a,.product .row>li a img{
+	display: block;
+	width: 100%;
+}
+.product .row>li p,.product .row>li h3 a{
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+}
+.product .row .text{
+	height: 60px;
+	background: #000;
+	overflow: hidden;
+}
+.more {
+	text-align: center;
+	padding: 37px 0;
+}
+.more  a{
+	display: inline-block;
+	width: 136px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: center;
+	font-family: "宋体";
+	background: url(../images/more.png) no-repeat center;
+}
+.package {
+	background: #000!important;
+}
+.package .title{
+	background: url(../images/title2.png) no-repeat center;
+}
+.package .row .text{
+	background:#b01211;
+}
+.package .more a{
+	color: #b01211;
+	background-image: url(../images/more2.png);
+}
+.brand{
+	position: relative;
+}
+.brand img{
+	width: 100%;
+	display: block;
+}
+.brand p{
+	text-indent: 2em;
+	font-size: 14px;
+	color: #fbfafa;
+	position: absolute;
+	width: 565px;
+	right: 140px;
+	top: 27%;
+	line-height: 36px;
+}
+.news{
+	position: relative;
+	top: -200px;
+	background:#fff;
+}
+.news .title{
+	background-image: url(../images/title3.png);
+}
+.news .more a{
+	color: #b01211;
+	background-image: url(../images/more2.png);
+}
+.news .list{
+	width: 961px;
+	margin: 0 auto;
+}
+.news .row{
+	padding: 0 40px;
+	margin: 0;
+	position: relative;
+	padding-bottom: 36px;	
+}
+.news .row .pull-left{
+	display: block;
+	padding-right: 20px;
+}
+.news .row .pull-left img{
+	display: block;
+	width: 100%;
+}
+.news .row  h4,.news .row  h4 a{
+	color: #3d464d;
+	font-size: 24px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+}
+.news .row  p{
+	color: #828a92;
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 36px;
+}
+.news .row   span{
+	display: block;
+	position: absolute;
+	bottom: -94px;
+	font-size: 14px;
+	font-family: "黑体";
+}
+.news .row   span b{
+	font-family: "Arial";
+	font-size: 14px;
+	color: #b01211;
+}
+.news .row   span i{
+	color: #828a92;
+}
+@media (max-width: 767px){
+	.content .container{
+		width: 100%;
+	}
+	.product{
+		background-image: url(../images/bg1-xs.png);
+	}
+	.product .row{
+		width: 100%;
+	}
+	.product .list{
+		width: 90%;
+		margin:  0 auto;
+	}
+	.product .row>li{
+		margin-bottom: 20px;
+		padding: 0 10px;
+	}
+	.more{
+		padding: 0px 0 15px;
+	}
+	.title{
+		height: 80px;
+		background-size: 40%!important;
+	}
+	.banner .hd{
+		bottom: 10px;
+	}
+	.banner .hd span{
+		width: 10px;
+		height: 10px;
+	}
+	.brand p{
+		left: 0;
+		right: 0;
+		position: relative;
+		width: 80%;
+		margin:  -100px auto 50px;
+	}
+	.news .row{
+		padding:12px 10px;
+		border-bottom: 1px solid #cccccc;
+	}
+	.news .row h4, .news .row h4 a{
+		font-size: 18px;
+	}
+	.news .row .pull-left{
+		padding-right: 10px;
+	}
+	.news{
+		top: 0;
+		margin-bottom: 100px;
+	}
+	.news .list{
+		top: 0;
+		width: 100%;
+		margin:  0 auto;
+		margin-bottom: 20px;
+	}
+	.news .row span{
+		position: relative;
+		bottom: 0;
+	}
+}
+@media (min-width: 768px ) and (max-width: 991px){
+	.content .container{
+		width: 100%;
+	}
+	.product .row{
+		width: 750px;
+	}
+	.more{
+		padding:  25px 0;
+	}
+	.title{
+		height: 110px;
+	}
+	.product .row .text{
+		height: 50px;
+	}
+	.product .row>div p, .product .row>div h3 a{
+		margin-top: 5px;
+	}
+	.news .list{
+		width: 750px;
+		margin: 0 auto;
+	}
+	.news .row p{
+		line-height: 18px;
+	}
+	.news .row span{
+		bottom: -36px;
+	}
+	.brand p{
+		left: 50%;
+		margin-left: -282.5px;
+	}
+}
+@media (min-width: 992px ) and (max-width: 1199px){
+	.content .container{
+		width: 100%;
+	}
+	.title{
+		height: 120px;
+	}
+	.brand p{
+		width: 440px;
+		right: 68px;
+		top: 30%;
+	}
+	.news .row span{
+		bottom: -46px;
+	}
+}

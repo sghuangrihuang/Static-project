@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>支付订单</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/pay.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#example-navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="products.html">产品中心</a></li>
+							<li><a href="company.html">公司简介</a></li>
+							<li><a href="news.html">新闻中心</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+							<li class="visible-xs"><a href="login.html">登陆</a></li>
+							<li class="visible-xs"><a href="user.html">个人中心</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="logo">
+					 <a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="cart visible-xs">
+					<a href="shopcart.html"><img src="images/cart.png" alt=""></a>
+				</div>
+				<button class="btn btn-primary btn-lg searchbtn" data-toggle="modal" data-target="#myModal"></button>
+				<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title" id="myModalLabel">搜索框</h4>
+						</div>
+						<div class="modal-body">
+							<form class="bs-example bs-example-form search_form" role="form">
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button">
+										搜索
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+				    </div>
+				  </div>
+				</div>
+				<div class="right">
+					<div class="search">
+						<form>
+							<input type="text">
+							<input type='submit' value="">
+						</form>
+					</div>
+					<div class="rightnav">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shopcart.html">购物车</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs head_bot">
+			<img src="images/head_left.jpg">
+			<img src="images/head_right.jpg">
+		</div>
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="pay">
+					<div class="pagetitle"></div>
+					<div class="thead clear">
+						<div class="col-xs-12 col-sm-3">
+							<p>订单号：102504568</p>
+						</div>
+						<div class="col-xs-12 col-sm-5">
+							<p>送货方式：顺丰快递</p>
+						</div>
+						<div class="col-sm-4 hidden-xs">
+							<p></p>
+						</div>
+						<div class="col-xs-12 col-sm-3">
+							<p>收件人：王明</p>
+						</div>
+						<div class="col-xs-12 col-sm-5">
+							<p>地址：广东省广州市白云区地方辅导中心</p>
+						</div>
+						<div class="col-xs-12 col-sm-4">
+							<p>预计到达时间：2015年9月24号</p>
+						</div>
+					</div>
+					<div class="tbody clear">
+						<div class="col-xs-12 col-sm-3">
+							<p>选择支付方式：</p>
+						</div>
+						<div class="col-xs-12 col-sm-5 paymethod">
+							<p>
+								<span>
+									<img src="images/icon7.png"><b>中国银行</b><em>快捷</em><i></i>
+								</span>
+							</p>
+							<p>
+								<span>
+									<img src="images/icon6.png"><b>微信支付</b><i></i>
+								</span>
+							</p>
+							<p>
+								<span>
+									<img src="images/icon5.png"><b>支付宝支付</b><i></i>
+								</span>
+							</p>
+							<p>
+								<span>
+									<img src="images/icon4.png"><b>添加支付方式</b>
+								</span>
+							</p>
+						</div>
+						<div class="col-xs-12 col-sm-4 paymess">
+							<p class="hidden-xs">更多支付方式</p>
+							<span>应付：<b>￥308.00</b></span>
+							<span>含配送费：￥5.00</span>
+							<span>已经优惠：<i>￥18.00</i></span>
+							<a href="pay_fail.html">确认付款</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="top">
+			<img src="images/home.png">
+		</div>
+		<div class="middle visible-lg">
+			<div class="nav">
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="company.html">品牌介绍</a></dd>
+					<dd><a href="news.html">新闻中心</a></dd>
+				</dl>
+				<dl>
+					<dt>合作事项</dt>
+					<dd><a href="javascript:void(0)">电商合作</a></dd>
+					<dd><a href="javascript:void(0)">入驻加盟</a></dd>
+					<dd><a href="javascript:void(0)">配送范围</a></dd>
+					<dd><a href="javascript:void(0)">广告服务</a></dd>
+				</dl>
+				<p><a href="index.html"><img src="images/foot_logo.png"></a></p>
+				<dl>
+					<dt>个人中心</dt>
+					<dd><a href="register.html">注册登录</a></dd>
+					<dd><a href="user.html">账户管理</a></dd>
+					<dd><a href="order_detail.html">订单详情</a></dd>
+				</dl>
+				<dl>
+					<dt>招贤纳士</dt>
+					<dd><a href="javascript:void(0)">校园招聘</a></dd>
+					<dd><a href="javascript:void(0)">社会招聘</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>粤ICP备08952533号</p>
+		</div>
+	</div>
+</body>
+</html>

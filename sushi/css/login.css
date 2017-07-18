@@ -1,0 +1,87 @@
+.pagetitle{
+	background: url(../images/title_login.png) no-repeat center;
+}
+.login{
+	width:924px;
+	margin:  0 auto 200px;
+}
+.login .row{
+	margin: 0;
+}
+.login form{
+	margin-top: 44px;
+}
+.login .text_left img{
+	display: block;
+	width: 100%;
+}
+.login .text_right p{
+	margin-bottom: 15px;
+}
+.login .text_right input{
+	font-size: 14px;
+	color: #808080;
+	height: 34px;
+	border: 1px solid #808080;
+	line-height: 34px;
+	padding:  0 15px;
+	width: 100%;
+}
+.login .text_right .yzm input{
+	width: 120px;
+	float: left;
+}
+.login .text_right .yzm img{
+	display: inline-block;
+	float: right;
+}
+.login .text_right .re input{
+	background: #ff0000;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+.login .text_right .check input{
+	width: 9px;
+	float: left;
+	height: 9px;
+	background: none;
+	cursor: pointer;
+	margin: 0 10px 0 3px;
+	top: 4px;
+	position: relative;
+	display: inline-block;
+}
+.login .text_right .check a{
+	float: left;
+	display: inline-block;
+	color: #808080;
+	font-size: 12px;
+	font-family: "宋体";
+}
+.login .text_right .check a+a{
+	float: right;
+}
+@media (max-width: 767px){
+	.login{
+		width: 100%;
+	}
+	.login form{
+		margin-top: 40px;
+	}
+	.login .text_right .yzm img{
+		height: 46px;
+		display: inline-block;
+	}
+	.login .text_right input{
+		height: 46px;
+		line-height: 46px;
+		margin-bottom: 5px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.login{
+		width:100%;
+	}
+}

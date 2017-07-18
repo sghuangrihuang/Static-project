@@ -1,0 +1,54 @@
+.company{
+	width: 840px;
+	margin:  0 auto;
+}
+.company .pagetitle{
+	background: url(../images/title_company.png) no-repeat center;
+}
+.company .text{
+	margin-bottom: 180px;
+}
+.company .text h2{
+	font-size: 24px;
+	color: #fff;
+	margin:  20px 0 10px;
+	text-align: center;
+}
+.company .text span{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 50px;
+	color: #888888;
+	font-family: "Arial";
+}
+.company .text p{
+	text-indent: 2em;
+	color: #888888;
+	line-height: 36px;
+	font-size: 14px;
+}
+.company .text img{
+	display: block;
+	margin:  25px  auto 0;
+}
+.company .text h3{
+	padding-left: 12px;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 30px;
+	border-left: 5px solid #ff0000;
+}
+@media (max-width: 767px){
+	.company{
+		width: 80%;
+	}
+	.company .text img{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.company{
+		width: 750px;
+	}
+}

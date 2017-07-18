@@ -1,0 +1,140 @@
+.pagetitle{
+	background: url(../images/title_prodetail.png) no-repeat center;
+}
+.prodetail{
+	width: 924px;
+	margin: 0 auto;
+}
+.prodetail .text{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #808080;
+}
+.prodetail .text .row{
+	margin: 0;
+}
+.probanner{
+	position: relative;
+}
+.probanner .hd {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 5px;
+	z-index: 10;
+}
+.probanner .swiper-container{
+	border:1px solid #787878;
+}
+.probanner .hd .swiper-pagination-bullet{
+	background: #fff;
+	margin:  0 2.5px;
+}
+.probanner a,.probanner a img{
+	display:block;
+	width: 100%;
+	height: auto;
+}
+.text_left p{
+	font-size: 24px;
+	color: #fff;
+}
+.text_left p+p{
+	margin-top: 15px;
+}
+.text_left p span{
+	float: left;
+	color: #FF0000;
+	margin-right: 10px;
+	font-size: 16px;
+	height: 34px;
+	line-height: 34px;
+}
+.text_left p span b{
+	font-size: 24px;	
+}
+.text_left p input{
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	margin:  0 5px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+.text_left p a{
+	float: left;
+	display: block;
+	width: 45%;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	background: #ffa200;
+}
+.text_left p a+a{
+	background: #ff0000;
+	margin-left: 10%;
+} 
+.text_left p input[type='text']{
+	width: 46px;
+	border:1px solid #4d4d4d;
+}
+.text_right{
+	padding-left: 20px;
+}
+.text_right p{
+	font-size: 14px;
+	color: #808080;
+	line-height: 36px;
+	text-indent: 2em;	
+}
+.like{
+	margin-bottom: 200px;
+}
+.like h2{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	color: #808080;
+}
+.like a,.like a img{
+	display: block;
+	width: 100%;
+}
+.like h3 a,.like h3 a{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px;
+	color: #808080;
+}
+.like p{
+	font-size: 14px;
+	color: #808080;
+	margin-top: 5px;
+	text-align: center;
+}
+@media (max-width: 767px ){
+	.prodetail{
+		width: 100%;
+	}
+	.text_right{
+		padding-left: 0;
+	}
+	.text_left p span+span{
+		float: right;
+	}
+	.like{
+		margin-bottom: 100px;
+	}
+}
+@media (min-width: 768px ) and (max-width: 991px){
+	.prodetail{
+		width: 100%;
+	}
+
+}

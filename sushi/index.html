@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#example-navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="products.html">产品中心</a></li>
+							<li><a href="company.html">公司简介</a></li>
+							<li><a href="news.html">新闻中心</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+							<li class="visible-xs"><a href="login.html">登陆</a></li>
+							<li class="visible-xs"><a href="user.html">个人中心</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="logo">
+					 <a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="cart visible-xs">
+					<a href="shopcart.html"><img src="images/cart.png" alt=""></a>
+				</div>
+				<button class="btn btn-primary btn-lg searchbtn" data-toggle="modal" data-target="#myModal"></button>
+				<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title" id="myModalLabel">搜索框</h4>
+						</div>
+						<div class="modal-body">
+							<form class="bs-example bs-example-form search_form" role="form">
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button">
+										搜索
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+						
+				    </div>
+				  </div>
+				</div>
+				<div class="right">
+					<div class="search">
+						<form>
+							<input type="text">
+							<input type='submit' value="">
+						</form>
+					</div>
+					<div class="rightnav">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shopcart.html">购物车</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs head_bot">
+			<img src="images/head_left.jpg">
+			<img src="images/head_right.jpg">
+		</div>
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="banner">
+					<div class="hd"></div>
+			        <div class="bd swiper-container">
+			            <ul class="swiper-wrapper">
+			                <li class="swiper-slide"><a><img src="images/banner.png" alt=""></a></li>
+			                <li class="swiper-slide"><a><img src="images/banner.png" alt=""></a></li>
+			                <li class="swiper-slide"><a><img src="images/banner.png" alt=""></a></li>
+			            </ul>
+			        </div>
+				</div>
+				<script type="text/javascript">
+					var banner = new Swiper('.banner .bd', {
+				        pagination: '.banner .hd',
+				        autoplay: 3000,
+				        paginationClickable: true,
+				        effect : 'slide',
+				        loop:true
+				    });
+				</script>
+				<div class="product">
+					<div class="title"></div>
+					<div class="list">
+						<ul class="row">
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro1.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro2.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro3.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro4.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="more">
+						<a href="products.html">查看全部商品</a>
+					</div>
+				</div>
+				<div class="product package">
+					<div class="title"></div>
+					<div class="list">
+						<ul class="row">
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro5.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro6.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro7.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+							<li class="col-sm-3 col-xs-6">
+								<div class="pic">
+									<a href="product_detail.html">
+										<img src="images/pro8.png">
+									</a>
+								</div>
+								<div class="text">
+									<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+									<p>¥35/份</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="more">
+						<a href="products.html">查看全部商品</a>
+					</div>
+				</div>
+				<div class="brand">
+					<img src="images/bg2.png">
+					<p>Bacaqu餐饮管理有限公司旗下(Bacaqu)寿司,秉持着“把高级美食普及化，平民化”的简单理念，保留了日本传统寿司的新鲜，加入独创的配方，丰富口感用心的融合，于2009年在上海复旦开设第一家仅有六平米的总店，由于始终不断的坚持品质使做出的料理备受亲睐同时也把美味，快乐，时尚，幸福的理念带给了每个尝个他寿司的朋友。上海星尚频道，新闻娱乐频道艺术人文频道,第一财经杂志曾先后多次做过报道。</p>
+				</div>
+				<div class="news">
+					<div class="list">
+						<div class="title"></div>
+						<ul>
+							<li class="row media">
+								<a href="news_detail.html" class="col-xs-4 col-lg-5 pull-left">
+									<img src="images/news1.png">
+								</a>
+								<div class="col-xs-8 col-lg-7 media-body">
+									<h4 class="media-heading"><a href="news_detail.html">让吃货拥有独一无二的寿司</a></h4>
+									<p class="hidden-xs">Bacaqu餐饮管理有限公司旗下(Bacaqu)寿司,秉持着“把高级美食普及化，平民化”的简单理念，保留了日本传统寿司的新鲜，加入独创的配方，丰富口感用心的融合，于2009年在上海复旦开设一家仅有六平米的总店，由于始终不断的坚友。</p>
+									<span>文/<b>Nishiki</b>  <i>2016/09/18</i></span>
+								</div>
+							</li>
+							<li class="row media">
+								<a href="news_detail.html" class="col-xs-4 col-lg-5 pull-left">
+									<img src="images/news2.png">
+								</a>
+								<div class="col-xs-8 col-lg-7 media-body">
+									<h4 class="media-heading"><a href="news_detail.html">2016年寿司日食高峰论坛文字实录</a></h4>
+									<p class="hidden-xs">Bacaqu餐饮管理有限公司旗下(Bacaqu)寿司,秉持着“把高级美食普及化，平民化”的简单理念，保留了日本传统寿司的新鲜，加入独创的配方，丰富口感用心的融合，于2009年在上海复旦开设一家仅有六平米的总店，由于始终不断的坚友。</p>
+									<span>文/<b>小公举</b>  <i>2016/09/18</i></span>
+								</div>
+							</li>
+							<li class="row media">
+								<a href="news_detail.html" class="col-xs-4 col-sm-4 col-md-4 col-lg-5 pull-left">
+									<img src="images/news3.png">
+								</a>
+								<div class="col-xs-8 col-sm-8 col-md-8 col-lg-7 media-body">
+									<h4 class="media-heading"><a href="news_detail.html">紫菜肉包包饭寿司技术培训</a></h4>
+									<p class="hidden-xs">Bacaqu餐饮管理有限公司旗下(Bacaqu)寿司,秉持着“把高级美食普及化，平民化”的简单理念，保留了日本传统寿司的新鲜，加入独创的配方，丰富口感用心的融合，于2009年在上海复旦开设一家仅有六平米的总店，由于始终不断的坚友。</p>
+									<span>文/<b>Nishiki</b>  <i>2016/09/18</i></span>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+					<div class="more">
+						<a href="news.html">查看全部新闻</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="top">
+			<img src="images/home.png">
+		</div>
+		<div class="middle visible-lg">
+			<div class="nav">
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="company.html">品牌介绍</a></dd>
+					<dd><a href="news.html">新闻中心</a></dd>
+				</dl>
+				<dl>
+					<dt>合作事项</dt>
+					<dd><a href="javascript:void(0)">电商合作</a></dd>
+					<dd><a href="javascript:void(0)">入驻加盟</a></dd>
+					<dd><a href="javascript:void(0)">配送范围</a></dd>
+					<dd><a href="javascript:void(0)">广告服务</a></dd>
+				</dl>
+				<p><a href="index.html"><img src="images/foot_logo.png"></a></p>
+				<dl>
+					<dt>个人中心</dt>
+					<dd><a href="register.html">注册登录</a></dd>
+					<dd><a href="user.html">账户管理</a></dd>
+					<dd><a href="order_detail.html">订单详情</a></dd>
+				</dl>
+				<dl>
+					<dt>招贤纳士</dt>
+					<dd><a href="javascript:void(0)">校园招聘</a></dd>
+					<dd><a href="javascript:void(0)">社会招聘</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>粤ICP备08952533号</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		var isphone=function(){
+			var winW=$("body").width();
+			if(winW<767){
+				var length = $(".banner .swiper-slide").length;
+				for(var i =0;i <length;i++){
+					
+					$(".banner ul li").eq(i).find("img").attr("src","images/banner-xs.png");
+				}
+				$(".brand img").attr("src","images/bg2-xs.png");
+			} else{
+				var length = $(".banner .swiper-slide").length;
+				for(var i =0;i <length;i++){
+					$(".banner ul li").eq(i).find("img").attr("src","images/banner.png");
+				}
+				$(".brand img").attr("src","images/bg2.png");
+			}
+		}
+		isphone();
+		$(window).resize(function(){
+			isphone();
+		})
+	})
+	</script>
+</body>
+</html>

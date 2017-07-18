@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+	<title>产品详情</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/prodetail.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper.jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#example-navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="example-navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">首页</a></li>
+							<li><a href="products.html">产品中心</a></li>
+							<li><a href="company.html">公司简介</a></li>
+							<li><a href="news.html">新闻中心</a></li>
+							<li><a href="contact.html">联系我们</a></li>
+							<li class="visible-xs"><a href="login.html">登陆</a></li>
+							<li class="visible-xs"><a href="user.html">个人中心</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="logo">
+					 <a href="index.html"><img src="images/logo.png"></a>
+				</div>
+				<div class="cart visible-xs">
+					<a href="shopcart.html"><img src="images/cart.png" alt=""></a>
+				</div>
+				<button class="btn btn-primary btn-lg searchbtn" data-toggle="modal" data-target="#myModal"></button>
+				<div class="modal fade bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+							<h4 class="modal-title" id="myModalLabel">搜索框</h4>
+						</div>
+						<div class="modal-body">
+							<form class="bs-example bs-example-form search_form" role="form">
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<span class="input-group-btn">
+										<button class="btn btn-default" type="button">
+										搜索
+										</button>
+									</span>
+								</div>
+							</form>
+						</div>
+				    </div>
+				  </div>
+				</div>
+				<div class="right">
+					<div class="search">
+						<form>
+							<input type="text">
+							<input type='submit' value="">
+						</form>
+					</div>
+					<div class="rightnav">
+						<a href="login.html">登录</a>
+						<a href="register.html">注册</a>
+						<a href="shopcart.html">购物车</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="visible-xs head_bot">
+			<img src="images/head_left.jpg">
+			<img src="images/head_right.jpg">
+		</div>
+	</div>
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="prodetail">
+					<div class="pagetitle"></div>
+					<div class="text">
+						<div class="row">
+							<div class="col-xs-12 col-sm-5 text_left">
+								<div class="probanner">
+									<div class="hd"></div>
+							        <div class="bd swiper-container">
+							            <ul class="swiper-wrapper">
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							                <li class="swiper-slide"><a><img src="images/prodetail.png" alt=""></a></li>
+							            </ul>
+							        </div>
+								</div>
+								<script type="text/javascript">
+									var probanner = new Swiper('.probanner .bd', {
+								        pagination: '.probanner .hd',
+								        autoplay: 3000,
+								        paginationClickable: true,
+								        effect : 'slide',
+								        loop:true
+								    });
+								</script>
+
+								<p>北海道渔场的枪鱼手卷寿司15g</p>
+								<p class="clear">
+									<span>¥<b>35</b>.50/份</span>
+									<span>
+										<input type="button" value="-">
+										<input type="text" value="30">
+										<input type="button" value="+">
+									</span>
+								</p>
+								<p class="clear">
+									<a href="shopcart.html">加入购物车</a>
+									<a href="shopcart.html">立即购买</a>
+								</p>
+							</div>
+							<div class="col-xs-12 col-sm-7 text_right">
+								<p>烧炙类——缘丰独创的全新料理手法，能够让产品色彩靓丽、外焦里嫩、口感鲜美无比缘丰精选挪威进口三文鱼、法国鹅肝、香港独家进口的蟹棒、加拿大沙地海胆、加拿大深海鲜带子等优质食材进行了我们的火炙产品之旅。</p>
+								<p>缘丰料理师们根据产品本身的食材属性，采用我们独特的炙烧料理工艺，倾心创作了多款的独家美味、客人喜爱的烧炙产品。如经典的芝士鹅肝、独家的烧炙蟹棒、丰腴的厚鳗鱼烧、滋味醇厚的火炙沙地海胆、柠香带子等等产品。这些产品在保留了原有食材的营养及鲜味的同时，多了一份特殊的炙烤的滋味。让产品的口感升华到另一个层次或入口即化、或鲜甜美妙、或香糯可口、或炙香怡人。口齿留香，让我们的味蕾在瞬间沉醉、恋恋不忘。</p>
+								<p>丰料理师们根据产品本身的食材属性，采用我们独特的炙烧料理工艺，倾心创作了多款的独家美味、客人喜爱的烧炙产品。如经典的芝士鹅肝、独家的烧炙蟹棒、丰腴的厚鳗鱼烧、滋味醇厚的火炙沙地海胆、柠香带子等等产品。这些产品在保留了原有食材的营养及鲜味的同时，多了一份特殊的炙烤的滋味。让产品的口感升华到另一个层次或入口、或鲜甜美妙、或香糯可口、或炙香怡人。口齿留香，让我们的味。</p>
+							</div>
+						</div>
+					</div>
+					<div class="like">
+						<h2>猜你喜欢</h2>
+						<div class="likebanner">
+					        <div class="bd swiper-container">
+					            <ul class="swiper-wrapper">
+					                <li class="swiper-slide">
+					                	<a href="product_detail.html"><img src="images/pro_1.png" alt=""></a>
+					                	<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+					                	<p>¥35/份</p>
+					                </li>
+					                <li class="swiper-slide">
+					                	<a href="product_detail.html"><img src="images/pro_2.png" alt=""></a>
+					                	<h3><a href="product_detail.html">鲔鱼手卷寿司</a></h3>
+					                	<p>¥20/份</p>
+					                </li>
+					                <li class="swiper-slide">
+					               		<a href="product_detail.html"><img src="images/pro_3.png" alt=""></a>
+					               		<h3><a href="product_detail.html">大马哈鱼寿司</a></h3>
+					                	<p>¥35/份</p>
+					                </li>
+					                <li class="swiper-slide">
+					               		<a href="product_detail.html"><img src="images/pro_4.png" alt=""></a>
+					               		<h3><a href="product_detail.html">金枪鱼手卷寿司</a></h3>
+					                	<p>¥35/份</p>
+					                </li>
+					            </ul>
+					        </div>
+						</div>
+						<script type="text/javascript">
+							var View=4,Column=1;
+							if($(window).width()<768){
+								View=2;
+								Column=2;
+							}
+						    var likebanner = new Swiper('.likebanner .bd', {
+						        autoplay: 3000,
+						        spaceBetween:36,
+					        	slidesPerView:View,
+					        	slidesPerColumn:Column,
+							    speed:700
+						    });
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="top">
+			<img src="images/home.png">
+		</div>
+		<div class="middle visible-lg">
+			<div class="nav">
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="company.html">品牌介绍</a></dd>
+					<dd><a href="news.html">新闻中心</a></dd>
+				</dl>
+				<dl>
+					<dt>合作事项</dt>
+					<dd><a href="javascript:void(0)">电商合作</a></dd>
+					<dd><a href="javascript:void(0)">入驻加盟</a></dd>
+					<dd><a href="javascript:void(0)">配送范围</a></dd>
+					<dd><a href="javascript:void(0)">广告服务</a></dd>
+				</dl>
+				<p><a href="index.html"><img src="images/foot_logo.png"></a></p>
+				<dl>
+					<dt>个人中心</dt>
+					<dd><a href="register.html">注册登录</a></dd>
+					<dd><a href="user.html">账户管理</a></dd>
+					<dd><a href="order_detail.html">订单详情</a></dd>
+				</dl>
+				<dl>
+					<dt>招贤纳士</dt>
+					<dd><a href="javascript:void(0)">校园招聘</a></dd>
+					<dd><a href="javascript:void(0)">社会招聘</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="bottom">
+			<p>粤ICP备08952533号</p>
+		</div>
+	</div>
+</body>
+</html>

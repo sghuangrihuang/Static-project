@@ -1,0 +1,142 @@
+.pagetitle{
+	background: url(../images/title_address.png) no-repeat center;
+}
+.address{
+	width:924px;
+	margin:  0 auto 200px;
+}
+.address .row{
+	margin: 0;
+}
+.address .thead{
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+.address .thead span{
+	font-size: 14px;
+	display: inline-block;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+}
+.address .tbody{
+	text-align: center;
+	border-bottom: 1px solid #4d4d4d;
+}
+.address .tbody li div{
+	height: 48px;
+	line-height: 48px;
+}
+.address .tbody span{
+	font-size: 14px;
+	color: #808080;
+	width: 100%;
+	display: inline-block;
+}
+.address .tbody input{
+	display: inline-block;
+	width: 12px;
+	cursor: pointer;
+	height: 12px;
+	border:1px solid #595959;
+	position: relative;
+	top: 1px;
+	margin-right: 5px;
+}
+.address .tbody span a{
+	font-size: 14px;
+	color: #e7db15;
+	float: left;
+	cursor: pointer;
+}
+.address .tbody span a+a{
+	float: right;
+}
+.address .tfail{
+	padding:15px 0;
+}
+.address .tfail p{
+	height: 32px;
+	line-height: 32px;
+}
+.address .tfail span{
+	float: left;
+	color: #808080;
+	font-size: 14px;
+}
+.address .tfail span input{
+	display: inline-block;
+	width: 12px;
+	cursor: pointer;
+	height: 12px;
+	border:1px solid #595959;
+	position: relative;
+	top: 2px;
+	margin-left: 8px;
+	margin-right: 5px;
+}
+.address .tfail span a{
+	font-size: 14px;
+	color: #808080;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.address .tfail p>a{
+	float: right;
+	width: 150px;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	background: #ff0000;
+	cursor:pointer;
+}
+@media (max-width: 767px){
+	.address{
+		width: 100%;
+	}
+	.address .row{
+		margin: 0 -5%;
+	}
+	.address .tbody{
+		text-align: left;
+		border-bottom: 1px solid #ffffff; 
+	}
+	.address .tbody li{
+		padding:  0 5%;
+		border-top:1px solid #ffffff; 
+	}
+	.address .tbody li div{
+		height: 30px;
+		display: block;
+		position: relative;
+		line-height: 30px;
+	}
+	.address .tbody .phone{
+		border-bottom: 1px solid #4d4d4d;
+	}
+	.address .tbody div:last-child{
+		height: 46px;
+		line-height: 46px;
+	}
+	.address .tbody div:last-child span{
+		width: auto;
+		float: right;
+	}
+	.address .tbody span a{
+		margin-left: 50px;
+	}
+	.address .tfail{
+		padding:  30px 0;
+	}
+	.address .tfail p>a{
+		margin: 0 auto;
+		float: none;
+	}
+}
+@media (min-width: 768px)  and (max-width: 991px){
+	.address{
+		width: 100%;
+	}
+}
