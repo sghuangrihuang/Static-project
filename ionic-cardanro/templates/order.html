@@ -8,23 +8,24 @@
         <ion-list class="list-with-price procart_body">
             <ion-item class="item-thumbnail-left " ng-repeat="arr in getData.list track by $index">
                 <div class="rows">
-                    <p class="colsleft">
-                        <ion-checkbox ng-model="arr.checked" on-tap="select()"></ion-checkbox>
-                        <a href="#/prodetail/{{arr.id}}"><img ng-src="{{arr.src}}"></a>
-                    </p>
-                    <p class="colsright" on-hold="opea($index)" >
+                     <p class="colsleft">
+                        <!-- <ion-checkbox ng-model="arr.checked" on-tap="select()"></ion-checkbox> -->
+                        <a href="#/prodetail/{{arr.id}}" style="margin-left:10%"><img ng-src="{{arr.src}}"></a>
+                    </p> 
+                    <!-- <p class="colsright" on-hold="opea($index)" > -->
+                    <p class="colsright">    
                         <span on-tap="hreflist({{arr.id}})"  ng-bind='arr.text'></span>
                         <span class="count">数量：<b>{{arr.count}}</b>
                         <span class="discount">折扣：<b>{{arr.discount}}</b></span>
                         </span>
                         <span class="price">¥{{arr.price}}<b>{{arr.cost}}</b></span>
-                        <span class="opea" on-tap="opea($index)">编辑</span>
+                        <!-- <span class="opea" on-tap="opea($index)">编辑</span> -->
                     </p>
                 </div>
             </ion-item>
         </ion-list>
     </ion-content>
-    <script id="popover.html" type="text/ng-template">
+     <script id="popover.html" type="text/ng-template">
         <ion-modal-view>
             <ion-header-bar align-title="center" class="bar-positive">
                 <h1 class="title">修改页面</h1>
@@ -40,10 +41,10 @@
                 <button class="button button-full button-positive" on-tap="modalhide(newcount)">修改</button>
             </ion-content>
         </ion-modal-view>
-    </script>
+    </script> 
     <ion-footer-bar class="procart_bot">
-        <ion-checkbox ng-model="getData.allchecked" on-tap="allselect()"></ion-checkbox>
-        <label>全选</label>
+        <!-- <ion-checkbox ng-model="getData.allchecked" on-tap="allselect()"></ion-checkbox>
+        <label>全选</label> -->
         <span>合计：<b>{{getData.allsum | myfilter }}</b></span>
         <a class="check" href="#/pay" on-tap="pay()">去结算<b></b></a>
     </ion-footer-bar>
