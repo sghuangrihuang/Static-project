@@ -10,20 +10,22 @@
                     <button class="button button-icon button-dark ion-ios-search-strong" on-tap="showtime()"></button>
                 </div>
             </ion-header-bar>
-            <ion-content class="topcontent">
+            <ion-content class="navwarrper">
                 <ion-list class="sortleft">
                     <ion-item ng-repeat="(index,list) in sortlist" class="leftlist	" on-tap="listselelct(index)">
                         {{list.text}}
                     </ion-item>
                 </ion-list>
+            </ion-content>
+            <ion-content class="listwarrper">
                 <ion-list class="listright">
                     <h3>洁面</h3>
                     <ion-slide-box on-slide-changed="slideHasChanged($index)" does-continue="true">
                         <ion-slide>
                             <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
                                 <b>
-								    <img ng-src="{{list.src}}">
-						        </b>
+                                        <img ng-src="{{list.src}}">
+                                    </b>
                                 <p>
                                     <span ng-bind='list.text'></span>
                                     <span class="price">¥{{list.price}}</span>
@@ -34,8 +36,8 @@
                         <ion-slide>
                             <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
                                 <b>
-								    <img ng-src="{{list.src}}">
-							    </b>
+                                        <img ng-src="{{list.src}}">
+                                    </b>
                                 <p>
                                     <span ng-bind='list.text'></span>
                                     <span class="price">¥{{list.price}}</span>
@@ -46,8 +48,8 @@
                         <ion-slide>
                             <ion-item ng-repeat="list in listlist" href="#/prodetail/0">
                                 <b>
-								    <img ng-src="{{list.src}}">
-							    </b>
+                                        <img ng-src="{{list.src}}">
+                                    </b>
                                 <p>
                                     <span ng-bind='list.text'></span>
                                     <span class="price">¥{{list.price}}</span>

@@ -1,4 +1,7 @@
 /* Empty. Add your own CSS if you like */
+.bar-header.bar{
+	box-shadow: 0 1px 2px #999
+}
 .tab-item-active{
 	background: #ffffff;
 	color: #c73f63;
@@ -91,6 +94,20 @@ input:-webkit-autofill {
 }
 .button.button-dark.button-icon{
 	color: #101010;
+}
+.navwarrper{
+	top: 44px;
+	width: 25%;
+	left: 0;
+	bottom: 49px;
+	z-index: 1;
+}
+.listwarrper{
+	top: 44px;
+	width: 75%;
+	left: 25%;
+	bottom: 49px;
+	z-index: 1;
 }
 .topcontent{
 	top: 44px;
@@ -576,7 +593,7 @@ input:-webkit-autofill {
 }
 .sortleft {
 	float: left;
-	width: 25%;
+	width: 100%;
 }
 .sortleft  .item{
 	border: none;
@@ -590,7 +607,8 @@ input:-webkit-autofill {
 }
 .sortright{
 	float: right;
-	width: 75%;
+	width: 100%;
+	box-sizing: border-box;
 	padding:0 15px;
 }
 .sortright  div{
@@ -624,7 +642,7 @@ input:-webkit-autofill {
 	display: none;
 }
 .listright{
-	width: 66%;
+	width: 91%;
 	float: left;
 	margin:  0 4.5%;
 }

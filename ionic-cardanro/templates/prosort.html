@@ -10,12 +10,14 @@
                     <button class="button button-icon button-dark ion-ios-search-strong" on-tap="showtime()"></button>
                 </div>
             </ion-header-bar>
-            <ion-content class="topcontent">
+            <ion-content class="navwarrper">
                 <ion-list class="sortleft">
                     <ion-item ng-repeat="list in sortlist" class="listleft" on-tap="sortselect($index)">
                         {{list.text}}
                     </ion-item>
                 </ion-list>
+            </ion-content>
+            <ion-content class="listwarrper">
                 <ion-list class="sortright">
                     <div>
                         <h3>产品类型：</h3>
